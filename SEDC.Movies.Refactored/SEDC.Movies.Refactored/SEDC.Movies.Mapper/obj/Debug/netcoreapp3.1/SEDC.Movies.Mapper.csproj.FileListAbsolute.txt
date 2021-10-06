@@ -1,0 +1,5 @@
+E:\SEDC WEB DEVELOPER - Full Materials\3rd Semester\WEB API\Homeworks_ASP.NET_Webapi\SEDC.Movies.Refactored\SEDC.Movies.Refactored\SEDC.Movies.Mapper\obj\Debug\netcoreapp3.1\SEDC.Movies.Mapper.csproj.AssemblyReference.cache
+E:\SEDC WEB DEVELOPER - Full Materials\3rd Semester\WEB API\Homeworks_ASP.NET_Webapi\SEDC.Movies.Refactored\SEDC.Movies.Refactored\SEDC.Movies.Mapper\obj\Debug\netcoreapp3.1\SEDC.Movies.Mapper.GeneratedMSBuildEditorConfig.editorconfig
+E:\SEDC WEB DEVELOPER - Full Materials\3rd Semester\WEB API\Homeworks_ASP.NET_Webapi\SEDC.Movies.Refactored\SEDC.Movies.Refactored\SEDC.Movies.Mapper\obj\Debug\netcoreapp3.1\SEDC.Movies.Mapper.AssemblyInfoInputs.cache
+E:\SEDC WEB DEVELOPER - Full Materials\3rd Semester\WEB API\Homeworks_ASP.NET_Webapi\SEDC.Movies.Refactored\SEDC.Movies.Refactored\SEDC.Movies.Mapper\obj\Debug\netcoreapp3.1\SEDC.Movies.Mapper.AssemblyInfo.cs
+E:\SEDC WEB DEVELOPER - Full Materials\3rd Semester\WEB API\Homeworks_ASP.NET_Webapi\SEDC.Movies.Refactored\SEDC.Movies.Refactored\SEDC.Movies.Mapper\obj\Debug\netcoreapp3.1\SEDC.Movies.Mapper.csproj.CoreCompileInputs.cache
