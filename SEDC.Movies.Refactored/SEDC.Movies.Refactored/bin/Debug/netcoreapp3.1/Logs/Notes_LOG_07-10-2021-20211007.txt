@@ -1,0 +1,178 @@
+
+03:44:35 [Information] () User profile is available. Using '"C:\Users\ANASTAS\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+
+03:44:36 [Information] () Creating key {587abd2a-a4a3-4bef-8b57-20259370131e} with creation date 2021-10-07 01:44:36Z, activation date 2021-10-07 01:44:36Z, and expiration date 2022-01-05 01:44:36Z.
+
+03:44:36 [Information] () Writing data to file '"C:\Users\ANASTAS\AppData\Local\ASP.NET\DataProtection-Keys\key-587abd2a-a4a3-4bef-8b57-20259370131e.xml"'.
+
+03:44:37 [Information] () Application started. Press Ctrl+C to shut down.
+
+03:44:37 [Information] () Hosting environment: "Development"
+
+03:44:37 [Information] () Content root path: "E:\SEDC WEB DEVELOPER - Full Materials\3rd Semester\WEB API\MoviesProject.WebApi.Refactored\SEDC.Movies.Refactored\SEDC.Movies.Refactored\SEDC.Movies.Refactored"
+
+03:44:37 [Information] () Request starting HTTP/2.0 GET https://localhost:44327/swagger  
+
+03:44:37 [Information] () Request starting HTTP/2.0 GET https://localhost:44327/swagger/index.html  
+
+03:44:37 [Information] () Request finished in 89.8311ms 301 
+
+03:44:37 [Information] () Request finished in 143.1077ms 200 text/html;charset=utf-8
+
+03:44:37 [Information] () Request starting HTTP/2.0 GET https://localhost:44327/swagger/swagger-ui-bundle.js  
+
+03:44:37 [Information] () Request starting HTTP/2.0 GET https://localhost:44327/swagger/swagger-ui-standalone-preset.js  
+
+03:44:37 [Information] () Request starting HTTP/2.0 GET https://localhost:44327/swagger/swagger-ui.css  
+
+03:44:37 [Information] () Sending file. Request path: '"/swagger-ui.css"'. Physical path: '"N/A"'
+
+03:44:37 [Information] () Sending file. Request path: '"/swagger-ui-standalone-preset.js"'. Physical path: '"N/A"'
+
+03:44:37 [Information] () Sending file. Request path: '"/swagger-ui-bundle.js"'. Physical path: '"N/A"'
+
+03:44:37 [Information] () Request finished in 206.2867ms 200 text/css
+
+03:44:37 [Information] () Request finished in 208.1643ms 200 application/javascript
+
+03:44:37 [Information] () Request finished in 206.8226ms 200 application/javascript
+
+03:44:38 [Information] () Request starting HTTP/2.0 GET https://localhost:44327/swagger/v1/swagger.json  
+
+03:44:38 [Information] () Request starting HTTP/2.0 GET https://localhost:44327/swagger/favicon-32x32.png  
+
+03:44:38 [Information] () Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+
+03:44:38 [Information] () Request finished in 4.9315ms 200 image/png
+
+03:44:38 [Information] () Request finished in 443.3606ms 200 application/json;charset=utf-8
+
+03:45:31 [Information] () Request starting HTTP/2.0 POST https://localhost:44327/api/Movie/CreateMovie application/json 107
+
+03:45:31 [Information] () CORS policy execution successful.
+
+03:45:32 [Information] () Authorization failed.
+
+03:45:32 [Information] () AuthenticationScheme: "Bearer" was challenged.
+
+03:45:32 [Information] () Request finished in 891.931ms 401 
+
+03:45:49 [Information] () Request starting HTTP/2.0 GET https://localhost:44327/api/Movie/CreateMovie  
+
+03:45:49 [Information] () Executing endpoint '"405 HTTP Method Not Supported"'
+
+03:45:49 [Information] () Executed endpoint '"405 HTTP Method Not Supported"'
+
+03:45:49 [Information] () Request finished in 16.1288ms 405 
+
+03:46:06 [Information] () Request starting HTTP/2.0 GET https://localhost:44327/api/Movie/CreateMovie  
+
+03:46:06 [Information] () Executing endpoint '"405 HTTP Method Not Supported"'
+
+03:46:06 [Information] () Executed endpoint '"405 HTTP Method Not Supported"'
+
+03:46:06 [Information] () Request finished in 5.5183ms 405 
+
+03:47:32 [Information] () Request starting HTTP/2.0 POST https://localhost:44327/api/Movie/CreateMovie application/json 108
+
+03:47:32 [Information] () CORS policy execution successful.
+
+03:47:32 [Information] () Authorization failed.
+
+03:47:32 [Information] () AuthenticationScheme: "Bearer" was challenged.
+
+03:47:32 [Information] () Request finished in 19.9024ms 401 
+
+03:48:57 [Information] () User profile is available. Using '"C:\Users\ANASTAS\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+
+03:48:58 [Information] () Application started. Press Ctrl+C to shut down.
+
+03:48:58 [Information] () Hosting environment: "Development"
+
+03:48:58 [Information] () Content root path: "E:\SEDC WEB DEVELOPER - Full Materials\3rd Semester\WEB API\MoviesProject.WebApi.Refactored\SEDC.Movies.Refactored\SEDC.Movies.Refactored\SEDC.Movies.Refactored"
+
+03:48:58 [Information] () Request starting HTTP/2.0 GET https://localhost:44327/swagger/index.html  
+
+03:48:58 [Information] () Request finished in 202.7924ms 200 text/html;charset=utf-8
+
+03:48:59 [Information] () Request starting HTTP/2.0 GET https://localhost:44327/swagger/v1/swagger.json  
+
+03:48:59 [Information] () Request finished in 307.8349ms 200 application/json;charset=utf-8
+
+03:49:23 [Information] () Request starting HTTP/2.0 POST https://localhost:44327/api/Movie/CreateMovie application/json 110
+
+03:49:23 [Information] () CORS policy execution successful.
+
+03:49:23 [Information] () Authorization failed.
+
+03:49:24 [Information] () AuthenticationScheme: "Bearer" was challenged.
+
+03:49:24 [Information] () Request finished in 312.8303ms 401 
+
+03:58:31 [Information] () User profile is available. Using '"C:\Users\ANASTAS\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+
+03:58:34 [Information] () Application started. Press Ctrl+C to shut down.
+
+03:58:34 [Information] () Hosting environment: "Development"
+
+03:58:34 [Information] () Content root path: "E:\SEDC WEB DEVELOPER - Full Materials\3rd Semester\WEB API\MoviesProject.WebApi.Refactored\SEDC.Movies.Refactored\SEDC.Movies.Refactored\SEDC.Movies.Refactored"
+
+03:58:34 [Information] () Request starting HTTP/2.0 GET https://localhost:44327/swagger/index.html  
+
+03:58:35 [Information] () Request finished in 500.0002ms 200 text/html;charset=utf-8
+
+03:58:36 [Information] () Request starting HTTP/2.0 GET https://localhost:44327/swagger/v1/swagger.json  
+
+03:58:36 [Information] () Request finished in 444.3953ms 200 application/json;charset=utf-8
+
+03:58:46 [Information] () Request starting HTTP/2.0 GET https://localhost:44327/api/Movie/GetMovie  
+
+03:58:46 [Information] () Authorization failed.
+
+03:58:46 [Information] () AuthenticationScheme: "Bearer" was challenged.
+
+03:58:46 [Information] () Request finished in 266.0671ms 401 
+
+03:59:02 [Information] () Request starting HTTP/2.0 GET https://localhost:44327/api/Movie/GetMovie  
+
+03:59:02 [Information] () Authorization failed.
+
+03:59:02 [Information] () AuthenticationScheme: "Bearer" was challenged.
+
+03:59:02 [Information] () Request finished in 15.1278ms 401 
+
+03:59:10 [Information] () Request starting HTTP/2.0 GET https://localhost:44327/api/Movie/GetMovie/1  
+
+03:59:10 [Information] () Request finished in 6.8985ms 404 
+
+03:59:12 [Information] () Request starting HTTP/2.0 GET https://localhost:44327/api/Movie/GetMovie  
+
+03:59:12 [Information] () Authorization failed.
+
+03:59:12 [Information] () AuthenticationScheme: "Bearer" was challenged.
+
+03:59:12 [Information] () Request finished in 15.1539ms 401 
+
+17:21:40 [Information] () User profile is available. Using '"C:\Users\ANASTAS\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+
+17:21:41 [Information] () Application started. Press Ctrl+C to shut down.
+
+17:21:41 [Information] () Hosting environment: "Development"
+
+17:21:41 [Information] () Content root path: "E:\SEDC WEB DEVELOPER - Full Materials\3rd Semester\WEB API\MoviesProject.WebApi.Refactored\SEDC.Movies.Refactored\SEDC.Movies.Refactored\SEDC.Movies.Refactored"
+
+17:21:41 [Information] () Request starting HTTP/2.0 GET https://localhost:44327/swagger/index.html  
+
+17:21:42 [Information] () Request finished in 247.2323ms 200 text/html;charset=utf-8
+
+17:21:43 [Information] () Request starting HTTP/2.0 GET https://localhost:44327/swagger/v1/swagger.json  
+
+17:21:43 [Information] () Request finished in 528.3183ms 200 application/json;charset=utf-8
+
+17:22:14 [Information] () Request starting HTTP/2.0 GET https://localhost:44327/api/Movie/GetMovie  
+
+17:22:14 [Information] () Authorization failed.
+
+17:22:14 [Information] () AuthenticationScheme: "Bearer" was challenged.
+
+17:22:14 [Information] () Request finished in 524.9075ms 401 

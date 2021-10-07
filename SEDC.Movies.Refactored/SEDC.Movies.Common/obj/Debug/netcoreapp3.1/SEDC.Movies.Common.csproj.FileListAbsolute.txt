@@ -1,0 +1,9 @@
+E:\SEDC WEB DEVELOPER - Full Materials\3rd Semester\WEB API\MoviesProject.WebApi.Refactored\SEDC.Movies.Refactored\SEDC.Movies.Refactored\SEDC.Movies.Common\bin\Debug\netcoreapp3.1\SEDC.Movies.Common.deps.json
+E:\SEDC WEB DEVELOPER - Full Materials\3rd Semester\WEB API\MoviesProject.WebApi.Refactored\SEDC.Movies.Refactored\SEDC.Movies.Refactored\SEDC.Movies.Common\bin\Debug\netcoreapp3.1\SEDC.Movies.Common.dll
+E:\SEDC WEB DEVELOPER - Full Materials\3rd Semester\WEB API\MoviesProject.WebApi.Refactored\SEDC.Movies.Refactored\SEDC.Movies.Refactored\SEDC.Movies.Common\bin\Debug\netcoreapp3.1\SEDC.Movies.Common.pdb
+E:\SEDC WEB DEVELOPER - Full Materials\3rd Semester\WEB API\MoviesProject.WebApi.Refactored\SEDC.Movies.Refactored\SEDC.Movies.Refactored\SEDC.Movies.Common\obj\Debug\netcoreapp3.1\SEDC.Movies.Common.GeneratedMSBuildEditorConfig.editorconfig
+E:\SEDC WEB DEVELOPER - Full Materials\3rd Semester\WEB API\MoviesProject.WebApi.Refactored\SEDC.Movies.Refactored\SEDC.Movies.Refactored\SEDC.Movies.Common\obj\Debug\netcoreapp3.1\SEDC.Movies.Common.AssemblyInfoInputs.cache
+E:\SEDC WEB DEVELOPER - Full Materials\3rd Semester\WEB API\MoviesProject.WebApi.Refactored\SEDC.Movies.Refactored\SEDC.Movies.Refactored\SEDC.Movies.Common\obj\Debug\netcoreapp3.1\SEDC.Movies.Common.AssemblyInfo.cs
+E:\SEDC WEB DEVELOPER - Full Materials\3rd Semester\WEB API\MoviesProject.WebApi.Refactored\SEDC.Movies.Refactored\SEDC.Movies.Refactored\SEDC.Movies.Common\obj\Debug\netcoreapp3.1\SEDC.Movies.Common.csproj.CoreCompileInputs.cache
+E:\SEDC WEB DEVELOPER - Full Materials\3rd Semester\WEB API\MoviesProject.WebApi.Refactored\SEDC.Movies.Refactored\SEDC.Movies.Refactored\SEDC.Movies.Common\obj\Debug\netcoreapp3.1\SEDC.Movies.Common.dll
+E:\SEDC WEB DEVELOPER - Full Materials\3rd Semester\WEB API\MoviesProject.WebApi.Refactored\SEDC.Movies.Refactored\SEDC.Movies.Refactored\SEDC.Movies.Common\obj\Debug\netcoreapp3.1\SEDC.Movies.Common.pdb

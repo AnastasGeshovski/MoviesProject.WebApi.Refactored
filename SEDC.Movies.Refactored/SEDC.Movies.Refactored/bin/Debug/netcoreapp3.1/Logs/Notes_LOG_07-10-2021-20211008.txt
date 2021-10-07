@@ -1,0 +1,42 @@
+
+01:12:35 [Information] () User profile is available. Using '"C:\Users\ANASTAS\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+
+01:12:36 [Information] () Application started. Press Ctrl+C to shut down.
+
+01:12:36 [Information] () Hosting environment: "Development"
+
+01:12:36 [Information] () Content root path: "E:\SEDC WEB DEVELOPER - Full Materials\3rd Semester\WEB API\MoviesProject.WebApi.Refactored\SEDC.Movies.Refactored\SEDC.Movies.Refactored\SEDC.Movies.Refactored"
+
+01:12:37 [Information] () Request starting HTTP/2.0 GET https://localhost:44327/swagger/index.html  
+
+01:12:37 [Information] () Request finished in 293.3533ms 200 text/html;charset=utf-8
+
+01:12:38 [Information] () Request starting HTTP/2.0 GET https://localhost:44327/swagger/v1/swagger.json  
+
+01:12:38 [Information] () Request finished in 411.0117ms 200 application/json;charset=utf-8
+
+01:21:14 [Information] () User profile is available. Using '"C:\Users\ANASTAS\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+
+01:21:15 [Information] () Application started. Press Ctrl+C to shut down.
+
+01:21:15 [Information] () Hosting environment: "Development"
+
+01:21:15 [Information] () Content root path: "E:\SEDC WEB DEVELOPER - Full Materials\3rd Semester\WEB API\MoviesProject.WebApi.Refactored\SEDC.Movies.Refactored\SEDC.Movies.Refactored\SEDC.Movies.Refactored"
+
+01:21:15 [Information] () Request starting HTTP/2.0 GET https://localhost:44327/swagger/index.html  
+
+01:21:15 [Information] () Request finished in 189.6348ms 200 text/html;charset=utf-8
+
+01:21:16 [Information] () Request starting HTTP/2.0 GET https://localhost:44327/swagger/v1/swagger.json  
+
+01:21:16 [Information] () Request finished in 321.7512ms 200 application/json;charset=utf-8
+
+01:21:52 [Information] () Request starting HTTP/2.0 POST https://localhost:44327/api/Movie/CreateMovie application/json 110
+
+01:21:52 [Information] () CORS policy execution successful.
+
+01:21:52 [Information] () Authorization failed.
+
+01:21:52 [Information] () AuthenticationScheme: "Bearer" was challenged.
+
+01:21:52 [Information] () Request finished in 291.2755ms 401 
