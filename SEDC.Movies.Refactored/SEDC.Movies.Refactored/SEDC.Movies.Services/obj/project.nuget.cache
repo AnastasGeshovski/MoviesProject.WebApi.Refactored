@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "74CNxeTcdjX4qESamNANRa7ZlOasifMk/HlX6rWq6R5s8uOpZlPfrEjmftCeZnnqZMVMeGt3pBGFSRE0M4y98w==",
+  "dgSpecHash": "C2aD/vWNBWaQrc/EodKbUUv0VZaVI8WWbbIduSdoNg+63BXA53y5T2T+RjzqRmFTmfttEXxHCrS0yu22j2g0Cw==",
   "success": true,
-  "projectFilePath": "E:\\SEDC WEB DEVELOPER - Full Materials\\3rd Semester\\WEB API\\Homeworks_ASP.NET_Webapi\\SEDC.Movies.Refactored\\SEDC.Movies.Refactored\\SEDC.Movies.Services\\SEDC.Movies.Services.csproj",
+  "projectFilePath": "E:\\SEDC WEB DEVELOPER - Full Materials\\3rd Semester\\WEB API\\MoviesProject.WebApi.Refactored\\SEDC.Movies.Refactored\\SEDC.Movies.Refactored\\SEDC.Movies.Services\\SEDC.Movies.Services.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ANASTAS\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\ANASTAS\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.1\\microsoft.bcl.hashcode.1.1.1.nupkg.sha512",

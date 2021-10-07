@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eRmuWUwvFNdMCezm/newRg+Jic9LsMswM0xHIVPKNQlsm8eAefJtwvJLgYe7O7YSG/CquGg7bG0m0ZfUwwT4Fg==",
+  "dgSpecHash": "FrEu5YEZw568uxW3yrbmNl7sCjyFA/A37I49mLNXGpd73Lh24+MouJjnQFmyDtbXY8EfHMTxcSJFPQBL01MhVg==",
   "success": true,
-  "projectFilePath": "E:\\SEDC WEB DEVELOPER - Full Materials\\3rd Semester\\WEB API\\Homeworks_ASP.NET_Webapi\\SEDC.Movies.Refactored\\SEDC.Movies.Refactored\\SEDC.Movies.RequestModels\\SEDC.Movies.RequestModels.csproj",
+  "projectFilePath": "E:\\SEDC WEB DEVELOPER - Full Materials\\3rd Semester\\WEB API\\MoviesProject.WebApi.Refactored\\SEDC.Movies.Refactored\\SEDC.Movies.Refactored\\SEDC.Movies.RequestModels\\SEDC.Movies.RequestModels.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
