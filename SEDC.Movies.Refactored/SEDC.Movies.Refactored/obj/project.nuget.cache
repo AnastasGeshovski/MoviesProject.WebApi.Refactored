@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VqlA55+r7Jxym5aGwVlgwhITpw08UjdGUZ5+YcuZ4d/Q09Va+zSPrgFN/WTtwihHjGgOFpWyblP9Qg2Tj/IabA==",
+  "dgSpecHash": "rlKfPUckfMwkYETGw9e9NSqH33flFeBcZYvuU5WsudyCOitU8Zil5xPbmmepFJ5y5ZnkmgpZ5jkealeel8z0EQ==",
   "success": true,
-  "projectFilePath": "E:\\SEDC WEB DEVELOPER - Full Materials\\3rd Semester\\WEB API\\MoviesProject.WebApi.Refactored\\SEDC.Movies.Refactored\\SEDC.Movies.Refactored\\SEDC.Movies.Refactored\\SEDC.Movies.WebApi.csproj",
+  "projectFilePath": "E:\\SEDC WEB DEVELOPER - Full Materials\\3rd Semester\\WEB API\\MoviesProject.WebApi.Refactored\\SEDC.Movies.Refactored\\SEDC.Movies.Refactored\\SEDC.Movies.WebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ANASTAS\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\3.1.19\\microsoft.aspnetcore.authentication.jwtbearer.3.1.19.nupkg.sha512",
     "C:\\Users\\ANASTAS\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",

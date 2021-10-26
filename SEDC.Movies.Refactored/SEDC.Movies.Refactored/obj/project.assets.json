@@ -8081,11 +8081,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\SEDC WEB DEVELOPER - Full Materials\\3rd Semester\\WEB API\\MoviesProject.WebApi.Refactored\\SEDC.Movies.Refactored\\SEDC.Movies.Refactored\\SEDC.Movies.Refactored\\SEDC.Movies.WebApi.csproj",
+      "projectUniqueName": "E:\\SEDC WEB DEVELOPER - Full Materials\\3rd Semester\\WEB API\\MoviesProject.WebApi.Refactored\\SEDC.Movies.Refactored\\SEDC.Movies.Refactored\\SEDC.Movies.WebApi.csproj",
       "projectName": "SEDC.Movies.WebApi",
-      "projectPath": "E:\\SEDC WEB DEVELOPER - Full Materials\\3rd Semester\\WEB API\\MoviesProject.WebApi.Refactored\\SEDC.Movies.Refactored\\SEDC.Movies.Refactored\\SEDC.Movies.Refactored\\SEDC.Movies.WebApi.csproj",
+      "projectPath": "E:\\SEDC WEB DEVELOPER - Full Materials\\3rd Semester\\WEB API\\MoviesProject.WebApi.Refactored\\SEDC.Movies.Refactored\\SEDC.Movies.Refactored\\SEDC.Movies.WebApi.csproj",
       "packagesPath": "C:\\Users\\ANASTAS\\.nuget\\packages\\",
-      "outputPath": "E:\\SEDC WEB DEVELOPER - Full Materials\\3rd Semester\\WEB API\\MoviesProject.WebApi.Refactored\\SEDC.Movies.Refactored\\SEDC.Movies.Refactored\\SEDC.Movies.Refactored\\obj\\",
+      "outputPath": "E:\\SEDC WEB DEVELOPER - Full Materials\\3rd Semester\\WEB API\\MoviesProject.WebApi.Refactored\\SEDC.Movies.Refactored\\SEDC.Movies.Refactored\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ANASTAS\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -8102,14 +8102,14 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "E:\\SEDC WEB DEVELOPER - Full Materials\\3rd Semester\\WEB API\\MoviesProject.WebApi.Refactored\\SEDC.Movies.Refactored\\SEDC.Movies.Refactored\\SEDC.Movies.IoC\\SEDC.Movies.IoC.csproj": {
-              "projectPath": "E:\\SEDC WEB DEVELOPER - Full Materials\\3rd Semester\\WEB API\\MoviesProject.WebApi.Refactored\\SEDC.Movies.Refactored\\SEDC.Movies.Refactored\\SEDC.Movies.IoC\\SEDC.Movies.IoC.csproj"
+            "E:\\SEDC WEB DEVELOPER - Full Materials\\3rd Semester\\WEB API\\MoviesProject.WebApi.Refactored\\SEDC.Movies.Refactored\\SEDC.Movies.IoC\\SEDC.Movies.IoC.csproj": {
+              "projectPath": "E:\\SEDC WEB DEVELOPER - Full Materials\\3rd Semester\\WEB API\\MoviesProject.WebApi.Refactored\\SEDC.Movies.Refactored\\SEDC.Movies.IoC\\SEDC.Movies.IoC.csproj"
             },
-            "E:\\SEDC WEB DEVELOPER - Full Materials\\3rd Semester\\WEB API\\MoviesProject.WebApi.Refactored\\SEDC.Movies.Refactored\\SEDC.Movies.Refactored\\SEDC.Movies.RequestModels\\SEDC.Movies.RequestModels.csproj": {
-              "projectPath": "E:\\SEDC WEB DEVELOPER - Full Materials\\3rd Semester\\WEB API\\MoviesProject.WebApi.Refactored\\SEDC.Movies.Refactored\\SEDC.Movies.Refactored\\SEDC.Movies.RequestModels\\SEDC.Movies.RequestModels.csproj"
+            "E:\\SEDC WEB DEVELOPER - Full Materials\\3rd Semester\\WEB API\\MoviesProject.WebApi.Refactored\\SEDC.Movies.Refactored\\SEDC.Movies.RequestModels\\SEDC.Movies.RequestModels.csproj": {
+              "projectPath": "E:\\SEDC WEB DEVELOPER - Full Materials\\3rd Semester\\WEB API\\MoviesProject.WebApi.Refactored\\SEDC.Movies.Refactored\\SEDC.Movies.RequestModels\\SEDC.Movies.RequestModels.csproj"
             },
-            "E:\\SEDC WEB DEVELOPER - Full Materials\\3rd Semester\\WEB API\\MoviesProject.WebApi.Refactored\\SEDC.Movies.Refactored\\SEDC.Movies.Refactored\\SEDC.Movies.Services\\SEDC.Movies.Services.csproj": {
-              "projectPath": "E:\\SEDC WEB DEVELOPER - Full Materials\\3rd Semester\\WEB API\\MoviesProject.WebApi.Refactored\\SEDC.Movies.Refactored\\SEDC.Movies.Refactored\\SEDC.Movies.Services\\SEDC.Movies.Services.csproj"
+            "E:\\SEDC WEB DEVELOPER - Full Materials\\3rd Semester\\WEB API\\MoviesProject.WebApi.Refactored\\SEDC.Movies.Refactored\\SEDC.Movies.Services\\SEDC.Movies.Services.csproj": {
+              "projectPath": "E:\\SEDC WEB DEVELOPER - Full Materials\\3rd Semester\\WEB API\\MoviesProject.WebApi.Refactored\\SEDC.Movies.Refactored\\SEDC.Movies.Services\\SEDC.Movies.Services.csproj"
             }
           }
         }

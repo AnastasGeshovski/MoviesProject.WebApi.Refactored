@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\SEDC WEB DEVELOPER - Full Materials\\3rd Semester\\WEB API\\MoviesProject.WebApi.Refactored\\SEDC.Movies.Refactored\\SEDC.Movies.Refactored\\SEDC.Movies.Common\\SEDC.Movies.Common.csproj",
+      "projectUniqueName": "E:\\SEDC WEB DEVELOPER - Full Materials\\3rd Semester\\WEB API\\MoviesProject.WebApi.Refactored\\SEDC.Movies.Refactored\\SEDC.Movies.Common\\SEDC.Movies.Common.csproj",
       "projectName": "SEDC.Movies.Common",
-      "projectPath": "E:\\SEDC WEB DEVELOPER - Full Materials\\3rd Semester\\WEB API\\MoviesProject.WebApi.Refactored\\SEDC.Movies.Refactored\\SEDC.Movies.Refactored\\SEDC.Movies.Common\\SEDC.Movies.Common.csproj",
+      "projectPath": "E:\\SEDC WEB DEVELOPER - Full Materials\\3rd Semester\\WEB API\\MoviesProject.WebApi.Refactored\\SEDC.Movies.Refactored\\SEDC.Movies.Common\\SEDC.Movies.Common.csproj",
       "packagesPath": "C:\\Users\\ANASTAS\\.nuget\\packages\\",
-      "outputPath": "E:\\SEDC WEB DEVELOPER - Full Materials\\3rd Semester\\WEB API\\MoviesProject.WebApi.Refactored\\SEDC.Movies.Refactored\\SEDC.Movies.Refactored\\SEDC.Movies.Common\\obj\\",
+      "outputPath": "E:\\SEDC WEB DEVELOPER - Full Materials\\3rd Semester\\WEB API\\MoviesProject.WebApi.Refactored\\SEDC.Movies.Refactored\\SEDC.Movies.Common\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ANASTAS\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,0 +1,418 @@
+
+21:49:12 [Information] () User profile is available. Using '"C:\Users\ANASTAS\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+
+21:49:13 [Information] () Application started. Press Ctrl+C to shut down.
+
+21:49:13 [Information] () Hosting environment: "Development"
+
+21:49:13 [Information] () Content root path: "E:\SEDC WEB DEVELOPER - Full Materials\3rd Semester\WEB API\MoviesProject.WebApi.Refactored\SEDC.Movies.Refactored\SEDC.Movies.Refactored"
+
+21:49:14 [Information] () Request starting HTTP/2.0 GET https://localhost:44327/swagger  
+
+21:49:14 [Information] () Request starting HTTP/2.0 GET https://localhost:44327/swagger/index.html  
+
+21:49:14 [Information] () Request finished in 127.7793ms 301 
+
+21:49:14 [Information] () Request finished in 156.1533ms 200 text/html;charset=utf-8
+
+21:49:14 [Information] () Request starting HTTP/2.0 GET https://localhost:44327/swagger/swagger-ui-bundle.js  
+
+21:49:14 [Information] () Request starting HTTP/2.0 GET https://localhost:44327/swagger/swagger-ui.css  
+
+21:49:14 [Information] () Request starting HTTP/2.0 GET https://localhost:44327/swagger/swagger-ui-standalone-preset.js  
+
+21:49:14 [Information] () Sending file. Request path: '"/swagger-ui-standalone-preset.js"'. Physical path: '"N/A"'
+
+21:49:14 [Information] () Sending file. Request path: '"/swagger-ui.css"'. Physical path: '"N/A"'
+
+21:49:14 [Information] () Request finished in 127.0731ms 200 text/css
+
+21:49:14 [Information] () Request finished in 126.6807ms 200 application/javascript
+
+21:49:14 [Information] () Sending file. Request path: '"/swagger-ui-bundle.js"'. Physical path: '"N/A"'
+
+21:49:14 [Information] () Request finished in 133.212ms 200 application/javascript
+
+21:49:15 [Information] () Request starting HTTP/2.0 GET https://localhost:44327/swagger/v1/swagger.json  
+
+21:49:15 [Information] () Request starting HTTP/2.0 GET https://localhost:44327/swagger/favicon-32x32.png  
+
+21:49:15 [Information] () Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+
+21:49:15 [Information] () Request finished in 5.9927ms 200 image/png
+
+21:49:15 [Information] () Request finished in 414.057ms 200 application/json;charset=utf-8
+
+21:51:05 [Information] () Request starting HTTP/1.1 GET https://localhost:44327/api/movie/createmovie  
+
+21:51:05 [Information] () Executing endpoint '"405 HTTP Method Not Supported"'
+
+21:51:05 [Information] () Executed endpoint '"405 HTTP Method Not Supported"'
+
+21:51:05 [Information] () Request finished in 116.0436ms 405 
+
+21:54:08 [Information] () Request starting HTTP/1.1 POST https://localhost:44327/api/movie/createmovie text/plain 67
+
+21:54:08 [Information] () Authorization failed.
+
+21:54:10 [Information] () AuthenticationScheme: "Bearer" was challenged.
+
+21:54:10 [Information] () Request finished in 1567.8507ms 401 
+
+22:42:27 [Information] () Request starting HTTP/1.1 POST https://localhost:44327/api/movie/createmovie text/plain 102
+
+22:42:27 [Information] () Authorization failed.
+
+22:42:27 [Information] () AuthenticationScheme: "Bearer" was challenged.
+
+22:42:27 [Information] () Request finished in 28.7904ms 401 
+
+22:42:51 [Information] () Request starting HTTP/2.0 POST https://localhost:44327/api/Movie/CreateMovie application/json 108
+
+22:42:51 [Information] () CORS policy execution successful.
+
+22:42:51 [Information] () Authorization failed.
+
+22:42:51 [Information] () AuthenticationScheme: "Bearer" was challenged.
+
+22:42:51 [Information] () Request finished in 26.1279ms 401 
+
+22:49:50 [Information] () User profile is available. Using '"C:\Users\ANASTAS\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+
+22:49:51 [Information] () Application started. Press Ctrl+C to shut down.
+
+22:49:51 [Information] () Hosting environment: "Development"
+
+22:49:51 [Information] () Content root path: "E:\SEDC WEB DEVELOPER - Full Materials\3rd Semester\WEB API\MoviesProject.WebApi.Refactored\SEDC.Movies.Refactored\SEDC.Movies.Refactored"
+
+22:49:51 [Information] () Request starting HTTP/2.0 GET https://localhost:44327/swagger/index.html  
+
+22:49:52 [Information] () Request finished in 327.7898ms 200 text/html;charset=utf-8
+
+22:49:53 [Information] () Request starting HTTP/2.0 GET https://localhost:44327/swagger/v1/swagger.json  
+
+22:49:53 [Information] () Request finished in 349.8738ms 200 application/json;charset=utf-8
+
+22:51:06 [Information] () Request starting HTTP/2.0 POST https://localhost:44327/api/Movie/CreateMovie application/json 113
+
+22:51:06 [Information] () CORS policy execution successful.
+
+22:51:06 [Information] () Authorization failed.
+
+22:51:06 [Information] () AuthenticationScheme: "Bearer" was challenged.
+
+22:51:06 [Information] () Request finished in 406.3004ms 401 
+
+22:51:13 [Information] () Request starting HTTP/2.0 POST https://localhost:44327/api/Movie/CreateMovie application/json 113
+
+22:51:13 [Information] () CORS policy execution successful.
+
+22:51:13 [Information] () Authorization failed.
+
+22:51:13 [Information] () AuthenticationScheme: "Bearer" was challenged.
+
+22:51:13 [Information] () Request finished in 40.1615ms 401 
+
+22:51:15 [Information] () Request starting HTTP/2.0 POST https://localhost:44327/api/Movie/CreateMovie application/json 113
+
+22:51:15 [Information] () CORS policy execution successful.
+
+22:51:15 [Information] () Authorization failed.
+
+22:51:15 [Information] () AuthenticationScheme: "Bearer" was challenged.
+
+22:51:15 [Information] () Request finished in 71.7547ms 401 
+
+22:52:18 [Information] () Request starting HTTP/1.1 POST https://localhost:44327/api/movie/createmovie application/json 102
+
+22:52:18 [Information] () Authorization failed.
+
+22:52:18 [Information] () AuthenticationScheme: "Bearer" was challenged.
+
+22:52:18 [Information] () Request finished in 52.6567ms 401 
+
+22:54:11 [Information] () User profile is available. Using '"C:\Users\ANASTAS\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+
+22:54:12 [Information] () Application started. Press Ctrl+C to shut down.
+
+22:54:12 [Information] () Hosting environment: "Development"
+
+22:54:12 [Information] () Content root path: "E:\SEDC WEB DEVELOPER - Full Materials\3rd Semester\WEB API\MoviesProject.WebApi.Refactored\SEDC.Movies.Refactored\SEDC.Movies.Refactored"
+
+22:54:12 [Information] () Request starting HTTP/2.0 GET https://localhost:44327/swagger/index.html  
+
+22:54:13 [Information] () Request finished in 385.0729ms 200 text/html;charset=utf-8
+
+22:54:14 [Information] () Request starting HTTP/2.0 GET https://localhost:44327/swagger/v1/swagger.json  
+
+22:54:14 [Information] () Request finished in 578.4826ms 200 application/json;charset=utf-8
+
+22:54:50 [Information] () Request starting HTTP/2.0 POST https://localhost:44327/api/Movie/CreateMovie application/json 115
+
+22:54:50 [Information] () CORS policy execution successful.
+
+22:54:50 [Information] () Executing endpoint '"SEDC.Movies.WebApi.Controllers.MovieController.CreateMovie (SEDC.Movies.WebApi)"'
+
+22:54:51 [Information] () Route matched with "{action = \"CreateMovie\", controller = \"Movie\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult CreateMovie(SEDC.Movies.RequestModels.MovieRequestModel)" on controller "SEDC.Movies.WebApi.Controllers.MovieController" ("SEDC.Movies.WebApi").
+
+22:57:03 [Error] () USER 0.null: "Name identifier claim does not exist!"
+
+22:57:09 [Information] () Executing ObjectResult, writing value of type '"System.String"'.
+
+22:57:09 [Information] () Executed action "SEDC.Movies.WebApi.Controllers.MovieController.CreateMovie (SEDC.Movies.WebApi)" in 138427.9528ms
+
+22:57:09 [Information] () Executed endpoint '"SEDC.Movies.WebApi.Controllers.MovieController.CreateMovie (SEDC.Movies.WebApi)"'
+
+22:57:09 [Information] () Request finished in 138730.0197ms 400 text/plain; charset=utf-8
+
+22:57:24 [Information] () Request starting HTTP/1.1 POST https://localhost:44327/api/movie/createmovie application/json 102
+
+22:57:24 [Information] () Executing endpoint '"SEDC.Movies.WebApi.Controllers.MovieController.CreateMovie (SEDC.Movies.WebApi)"'
+
+22:57:24 [Information] () Route matched with "{action = \"CreateMovie\", controller = \"Movie\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult CreateMovie(SEDC.Movies.RequestModels.MovieRequestModel)" on controller "SEDC.Movies.WebApi.Controllers.MovieController" ("SEDC.Movies.WebApi").
+
+22:57:55 [Information] () Entity Framework Core "3.1.19" initialized '"MoviesAppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+
+22:58:51 [Information] () Executing ObjectResult, writing value of type '"Microsoft.AspNetCore.Mvc.ValidationProblemDetails"'.
+
+22:58:51 [Information] () Executed action "SEDC.Movies.WebApi.Controllers.MovieController.CreateMovie (SEDC.Movies.WebApi)" in 86778.028ms
+
+22:58:51 [Information] () Executed endpoint '"SEDC.Movies.WebApi.Controllers.MovieController.CreateMovie (SEDC.Movies.WebApi)"'
+
+22:58:51 [Information] () Request finished in 86817.0646ms 400 application/problem+json; charset=utf-8
+
+23:07:07 [Information] () User profile is available. Using '"C:\Users\ANASTAS\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+
+23:07:08 [Information] () Application started. Press Ctrl+C to shut down.
+
+23:07:08 [Information] () Hosting environment: "Development"
+
+23:07:08 [Information] () Content root path: "E:\SEDC WEB DEVELOPER - Full Materials\3rd Semester\WEB API\MoviesProject.WebApi.Refactored\SEDC.Movies.Refactored\SEDC.Movies.Refactored"
+
+23:07:08 [Information] () Request starting HTTP/2.0 GET https://localhost:44327/swagger/index.html  
+
+23:07:09 [Information] () Request finished in 592.7924ms 200 text/html;charset=utf-8
+
+23:07:10 [Information] () Request starting HTTP/2.0 GET https://localhost:44327/swagger/v1/swagger.json  
+
+23:07:10 [Information] () Request finished in 469.1331ms 200 application/json;charset=utf-8
+
+23:07:50 [Information] () Request starting HTTP/2.0 POST https://localhost:44327/api/Movie/CreateMovie application/json 108
+
+23:07:50 [Information] () CORS policy execution successful.
+
+23:07:51 [Information] () Executing endpoint '"SEDC.Movies.WebApi.Controllers.MovieController.CreateMovie (SEDC.Movies.WebApi)"'
+
+23:07:51 [Information] () Route matched with "{action = \"CreateMovie\", controller = \"Movie\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult CreateMovie(SEDC.Movies.RequestModels.MovieRequestModel)" on controller "SEDC.Movies.WebApi.Controllers.MovieController" ("SEDC.Movies.WebApi").
+
+23:09:23 [Error] () USER 0.null: "Name identifier claim does not exist!"
+
+23:09:35 [Information] () Executing ObjectResult, writing value of type '"System.String"'.
+
+23:09:35 [Information] () Executed action "SEDC.Movies.WebApi.Controllers.MovieController.CreateMovie (SEDC.Movies.WebApi)" in 104360.3128ms
+
+23:09:35 [Information] () Executed endpoint '"SEDC.Movies.WebApi.Controllers.MovieController.CreateMovie (SEDC.Movies.WebApi)"'
+
+23:09:35 [Information] () Request finished in 104703.0158ms 400 text/plain; charset=utf-8
+
+23:13:31 [Information] () User profile is available. Using '"C:\Users\ANASTAS\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+
+23:13:33 [Information] () Application started. Press Ctrl+C to shut down.
+
+23:13:33 [Information] () Hosting environment: "Development"
+
+23:13:33 [Information] () Content root path: "E:\SEDC WEB DEVELOPER - Full Materials\3rd Semester\WEB API\MoviesProject.WebApi.Refactored\SEDC.Movies.Refactored\SEDC.Movies.Refactored"
+
+23:13:33 [Information] () Request starting HTTP/2.0 GET https://localhost:44327/swagger/index.html  
+
+23:13:33 [Information] () Request finished in 393.5368ms 200 text/html;charset=utf-8
+
+23:13:35 [Information] () Request starting HTTP/2.0 GET https://localhost:44327/swagger/v1/swagger.json  
+
+23:13:35 [Information] () Request finished in 546.6414ms 200 application/json;charset=utf-8
+
+23:15:04 [Information] () Request starting HTTP/2.0 POST https://localhost:44327/api/User/register application/json 142
+
+23:15:04 [Information] () CORS policy execution successful.
+
+23:15:05 [Information] () Executing endpoint '"SEDC.Movies.WebApi.Controllers.UserController.Register (SEDC.Movies.WebApi)"'
+
+23:15:05 [Information] () Route matched with "{action = \"Register\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Register(SEDC.Movies.RequestModels.RegisterRequestModel)" on controller "SEDC.Movies.WebApi.Controllers.UserController" ("SEDC.Movies.WebApi").
+
+23:15:07 [Information] () Entity Framework Core "3.1.19" initialized '"MoviesAppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+
+23:15:10 [Information] () Executed DbCommand ("214"ms) [Parameters=["@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [Users] ([FirstName], [LastName], [Password], [Username])
+VALUES (@p0, @p1, @p2, @p3);
+SELECT [Id]
+FROM [Users]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();"
+
+23:15:10 [Information] () Executing HttpStatusCodeResult, setting HTTP status code 200
+
+23:15:10 [Information] () Executed action "SEDC.Movies.WebApi.Controllers.UserController.Register (SEDC.Movies.WebApi)" in 5681.518ms
+
+23:15:10 [Information] () Executed endpoint '"SEDC.Movies.WebApi.Controllers.UserController.Register (SEDC.Movies.WebApi)"'
+
+23:15:10 [Information] () Request finished in 6069.0393ms 200 
+
+23:20:27 [Information] () User profile is available. Using '"C:\Users\ANASTAS\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+
+23:20:29 [Information] () Application started. Press Ctrl+C to shut down.
+
+23:20:29 [Information] () Hosting environment: "Development"
+
+23:20:29 [Information] () Content root path: "E:\SEDC WEB DEVELOPER - Full Materials\3rd Semester\WEB API\MoviesProject.WebApi.Refactored\SEDC.Movies.Refactored\SEDC.Movies.Refactored"
+
+23:20:30 [Information] () Request starting HTTP/2.0 GET https://localhost:44327/swagger/index.html  
+
+23:20:30 [Information] () Request finished in 401.6564ms 200 text/html;charset=utf-8
+
+23:20:36 [Information] () Request starting HTTP/2.0 GET https://localhost:44327/swagger/v1/swagger.json  
+
+23:20:36 [Information] () Request finished in 483.234ms 200 application/json;charset=utf-8
+
+23:22:37 [Information] () Request starting HTTP/1.1 POST https://localhost:44327/api/users/authenticate application/json 63
+
+23:22:37 [Information] () Request finished in 101.1468ms 404 
+
+23:24:15 [Information] () Request starting HTTP/1.1 POST https://localhost:44327/api/users/authenticate application/json 63
+
+23:24:15 [Information] () Request finished in 45.4418ms 404 
+
+23:25:46 [Information] () Request starting HTTP/2.0 POST https://localhost:44327/api/User/register application/json 124
+
+23:25:46 [Information] () CORS policy execution successful.
+
+23:25:46 [Information] () Executing endpoint '"SEDC.Movies.WebApi.Controllers.UserController.Register (SEDC.Movies.WebApi)"'
+
+23:25:46 [Information] () Route matched with "{action = \"Register\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Register(SEDC.Movies.RequestModels.RegisterRequestModel)" on controller "SEDC.Movies.WebApi.Controllers.UserController" ("SEDC.Movies.WebApi").
+
+23:25:49 [Information] () Entity Framework Core "3.1.19" initialized '"MoviesAppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+
+23:25:51 [Information] () Executed DbCommand ("188"ms) [Parameters=["@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [Users] ([FirstName], [LastName], [Password], [Username])
+VALUES (@p0, @p1, @p2, @p3);
+SELECT [Id]
+FROM [Users]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();"
+
+23:25:51 [Information] () Executing HttpStatusCodeResult, setting HTTP status code 200
+
+23:25:51 [Information] () Executed action "SEDC.Movies.WebApi.Controllers.UserController.Register (SEDC.Movies.WebApi)" in 4957.2551ms
+
+23:25:51 [Information] () Executed endpoint '"SEDC.Movies.WebApi.Controllers.UserController.Register (SEDC.Movies.WebApi)"'
+
+23:25:51 [Information] () Request finished in 5224.2068ms 200 
+
+23:26:18 [Information] () Request starting HTTP/1.1 POST https://localhost:44327/api/users/authenticate application/json 55
+
+23:26:18 [Information] () Request finished in 33.1143ms 404 
+
+23:26:41 [Information] () Request starting HTTP/1.1 POST https://localhost:44327/api/user/authenticate application/json 55
+
+23:26:41 [Information] () Executing endpoint '"SEDC.Movies.WebApi.Controllers.UserController.Authenticate (SEDC.Movies.WebApi)"'
+
+23:26:41 [Information] () Route matched with "{action = \"Authenticate\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Authenticate(SEDC.Movies.RequestModels.LoginRequestModel)" on controller "SEDC.Movies.WebApi.Controllers.UserController" ("SEDC.Movies.WebApi").
+
+23:26:57 [Information] () Entity Framework Core "3.1.19" initialized '"MoviesAppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+
+23:26:57 [Information] () Executed DbCommand ("171"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[Id], [u].[FirstName], [u].[LastName], [u].[Password], [u].[Username]
+FROM [Users] AS [u]"
+
+23:27:03 [Information] () Executing ObjectResult, writing value of type '"SEDC.Movies.RequestModels.UserModel"'.
+
+23:27:03 [Information] () Executed action "SEDC.Movies.WebApi.Controllers.UserController.Authenticate (SEDC.Movies.WebApi)" in 22328.0456ms
+
+23:27:03 [Information] () Executed endpoint '"SEDC.Movies.WebApi.Controllers.UserController.Authenticate (SEDC.Movies.WebApi)"'
+
+23:27:03 [Information] () Request finished in 22348.2558ms 200 application/json; charset=utf-8
+
+23:29:04 [Information] () User profile is available. Using '"C:\Users\ANASTAS\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+
+23:29:05 [Information] () Application started. Press Ctrl+C to shut down.
+
+23:29:05 [Information] () Hosting environment: "Development"
+
+23:29:05 [Information] () Content root path: "E:\SEDC WEB DEVELOPER - Full Materials\3rd Semester\WEB API\MoviesProject.WebApi.Refactored\SEDC.Movies.Refactored\SEDC.Movies.Refactored"
+
+23:29:06 [Information] () Request starting HTTP/2.0 GET https://localhost:44327/swagger/index.html  
+
+23:29:06 [Information] () Request finished in 269.5125ms 200 text/html;charset=utf-8
+
+23:29:07 [Information] () Request starting HTTP/2.0 GET https://localhost:44327/swagger/v1/swagger.json  
+
+23:29:07 [Information] () Request finished in 519.8167ms 200 application/json;charset=utf-8
+
+23:30:16 [Information] () Request starting HTTP/1.1 POST https://localhost:44327/api/movie/createmovie application/json 123
+
+23:30:16 [Information] () Authorization failed.
+
+23:30:18 [Information] () Successfully validated the token.
+
+23:30:18 [Information] () AuthenticationScheme: "Bearer" was challenged.
+
+23:30:18 [Information] () Request finished in 1930.4265ms 401 
+
+23:30:25 [Information] () Request starting HTTP/1.1 POST https://localhost:44327/api/movie/createmovie application/json 123
+
+23:30:25 [Information] () Authorization failed.
+
+23:30:25 [Information] () Successfully validated the token.
+
+23:30:25 [Information] () AuthenticationScheme: "Bearer" was challenged.
+
+23:30:25 [Information] () Request finished in 28.2167ms 401 
+
+23:31:01 [Information] () Request starting HTTP/1.1 POST https://localhost:44327/api/movie/createmovie application/json 123
+
+23:31:01 [Information] () Authorization failed.
+
+23:31:01 [Information] () Successfully validated the token.
+
+23:31:01 [Information] () AuthenticationScheme: "Bearer" was challenged.
+
+23:31:01 [Information] () Request finished in 31.3206ms 401 
+
+23:31:53 [Information] () Request starting HTTP/1.1 POST https://localhost:44327/api/movie/createmovie application/json 123
+
+23:31:53 [Information] () Authorization failed.
+
+23:31:53 [Information] () Successfully validated the token.
+
+23:31:53 [Information] () AuthenticationScheme: "Bearer" was challenged.
+
+23:31:53 [Information] () Request finished in 25.0695ms 401 
+
+23:33:14 [Information] () Request starting HTTP/1.1 POST https://localhost:44327/api/user/authenticate application/json 55
+
+23:33:14 [Information] () Executing endpoint '"SEDC.Movies.WebApi.Controllers.UserController.Authenticate (SEDC.Movies.WebApi)"'
+
+23:33:14 [Information] () Route matched with "{action = \"Authenticate\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Authenticate(SEDC.Movies.RequestModels.LoginRequestModel)" on controller "SEDC.Movies.WebApi.Controllers.UserController" ("SEDC.Movies.WebApi").
+
+23:33:22 [Information] () Entity Framework Core "3.1.19" initialized '"MoviesAppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+
+23:33:24 [Information] () Executed DbCommand ("115"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[Id], [u].[FirstName], [u].[LastName], [u].[Password], [u].[Username]
+FROM [Users] AS [u]"
+
+23:33:25 [Information] () Executing ObjectResult, writing value of type '"SEDC.Movies.RequestModels.UserModel"'.
+
+23:33:25 [Information] () Executed action "SEDC.Movies.WebApi.Controllers.UserController.Authenticate (SEDC.Movies.WebApi)" in 10574.0065ms
+
+23:33:25 [Information] () Executed endpoint '"SEDC.Movies.WebApi.Controllers.UserController.Authenticate (SEDC.Movies.WebApi)"'
+
+23:33:25 [Information] () Request finished in 10802.3884ms 200 application/json; charset=utf-8
+
+23:34:05 [Information] () Request starting HTTP/1.1 POST https://localhost:44327/api/movie/createmovie application/json 123
+
+23:34:05 [Information] () Authorization failed.
+
+23:34:05 [Information] () Successfully validated the token.
+
+23:34:05 [Information] () AuthenticationScheme: "Bearer" was challenged.
+
+23:34:05 [Information] () Request finished in 81.7286ms 401 

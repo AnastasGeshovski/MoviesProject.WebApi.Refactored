@@ -1,0 +1,664 @@
+
+23:08:42 [Information] () User profile is available. Using '"C:\Users\ANASTAS\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+
+23:08:43 [Information] () Application started. Press Ctrl+C to shut down.
+
+23:08:43 [Information] () Hosting environment: "Development"
+
+23:08:43 [Information] () Content root path: "E:\SEDC WEB DEVELOPER - Full Materials\3rd Semester\WEB API\MoviesProject.WebApi.Refactored\SEDC.Movies.Refactored\SEDC.Movies.Refactored"
+
+23:08:43 [Information] () Request starting HTTP/2.0 GET https://localhost:44327/swagger/index.html  
+
+23:08:43 [Information] () Request finished in 169.2166ms 200 text/html;charset=utf-8
+
+23:08:44 [Information] () Request starting HTTP/2.0 GET https://localhost:44327/swagger/v1/swagger.json  
+
+23:08:44 [Information] () Request finished in 309.6692ms 200 application/json;charset=utf-8
+
+23:18:29 [Information] () Request starting HTTP/2.0 POST https://localhost:44327/api/User/register application/json 126
+
+23:18:29 [Information] () CORS policy execution successful.
+
+23:18:30 [Information] () Executing endpoint '"SEDC.Movies.WebApi.Controllers.UserController.Register (SEDC.Movies.WebApi)"'
+
+23:18:30 [Information] () Route matched with "{action = \"Register\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Register(SEDC.Movies.RequestModels.RegisterRequestModel)" on controller "SEDC.Movies.WebApi.Controllers.UserController" ("SEDC.Movies.WebApi").
+
+23:19:41 [Information] () Entity Framework Core "3.1.19" initialized '"MoviesAppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+
+23:19:43 [Information] () Executed DbCommand ("141"ms) [Parameters=["@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [Users] ([FirstName], [LastName], [Password], [Username])
+VALUES (@p0, @p1, @p2, @p3);
+SELECT [Id]
+FROM [Users]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();"
+
+23:19:43 [Information] () Executing HttpStatusCodeResult, setting HTTP status code 200
+
+23:19:43 [Information] () Executed action "SEDC.Movies.WebApi.Controllers.UserController.Register (SEDC.Movies.WebApi)" in 73276.1657ms
+
+23:19:43 [Information] () Executed endpoint '"SEDC.Movies.WebApi.Controllers.UserController.Register (SEDC.Movies.WebApi)"'
+
+23:19:43 [Information] () Request finished in 74281.0092ms 200 
+
+23:21:18 [Information] () Request starting HTTP/1.1 POST https://localhost:44327/api/movie/createmovie  0
+
+23:21:18 [Information] () Authorization failed.
+
+23:21:18 [Information] () AuthenticationScheme: "Bearer" was challenged.
+
+23:21:18 [Information] () Request finished in 42.231ms 401 
+
+23:21:39 [Information] () Request starting HTTP/1.1 POST https://localhost:44327/api/movie/createmovie  0
+
+23:21:40 [Information] () Successfully validated the token.
+
+23:21:40 [Information] () Authorization was successful.
+
+23:21:40 [Information] () Executing endpoint '"SEDC.Movies.WebApi.Controllers.MovieController.CreateMovie (SEDC.Movies.WebApi)"'
+
+23:21:40 [Information] () Route matched with "{action = \"CreateMovie\", controller = \"Movie\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult CreateMovie(SEDC.Movies.RequestModels.MovieRequestModel)" on controller "SEDC.Movies.WebApi.Controllers.MovieController" ("SEDC.Movies.WebApi").
+
+23:21:40 [Information] () Executing ObjectResult, writing value of type '"Microsoft.AspNetCore.Mvc.ProblemDetails"'.
+
+23:21:40 [Information] () Executed action "SEDC.Movies.WebApi.Controllers.MovieController.CreateMovie (SEDC.Movies.WebApi)" in 32.6504ms
+
+23:21:40 [Information] () Executed endpoint '"SEDC.Movies.WebApi.Controllers.MovieController.CreateMovie (SEDC.Movies.WebApi)"'
+
+23:21:40 [Information] () Request finished in 861.7458ms 415 application/problem+json; charset=utf-8
+
+23:26:27 [Information] () Request starting HTTP/1.1 POST https://localhost:44327/api/movie/createmovie application/json 126
+
+23:26:27 [Information] () Successfully validated the token.
+
+23:26:27 [Information] () Authorization was successful.
+
+23:26:27 [Information] () Executing endpoint '"SEDC.Movies.WebApi.Controllers.MovieController.CreateMovie (SEDC.Movies.WebApi)"'
+
+23:26:27 [Information] () Route matched with "{action = \"CreateMovie\", controller = \"Movie\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult CreateMovie(SEDC.Movies.RequestModels.MovieRequestModel)" on controller "SEDC.Movies.WebApi.Controllers.MovieController" ("SEDC.Movies.WebApi").
+
+23:27:46 [Information] () Entity Framework Core "3.1.19" initialized '"MoviesAppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+
+23:27:47 [Information] () Executed DbCommand ("18"ms) [Parameters=["@p0='?' (Size = 4000), @p1='?' (DbType = Int32), @p2='?' (Size = 4000), @p3='?' (DbType = Int32), @p4='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [Movies] ([Description], [Genre], [Title], [UserId], [Year])
+VALUES (@p0, @p1, @p2, @p3, @p4);
+SELECT [Id]
+FROM [Movies]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();"
+
+23:27:47 [Information] () Movie succesffuly created date: 10/18/2021 9:27:47 PM
+
+23:27:47 [Information] () Executing HttpStatusCodeResult, setting HTTP status code 200
+
+23:27:47 [Information] () Executed action "SEDC.Movies.WebApi.Controllers.MovieController.CreateMovie (SEDC.Movies.WebApi)" in 79958.075ms
+
+23:27:47 [Information] () Executed endpoint '"SEDC.Movies.WebApi.Controllers.MovieController.CreateMovie (SEDC.Movies.WebApi)"'
+
+23:27:47 [Information] () Request finished in 79979.9569ms 200 
+
+23:29:35 [Information] () User profile is available. Using '"C:\Users\ANASTAS\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+
+23:29:35 [Information] () Application started. Press Ctrl+C to shut down.
+
+23:29:35 [Information] () Hosting environment: "Development"
+
+23:29:35 [Information] () Content root path: "E:\SEDC WEB DEVELOPER - Full Materials\3rd Semester\WEB API\MoviesProject.WebApi.Refactored\SEDC.Movies.Refactored\SEDC.Movies.Refactored"
+
+23:29:35 [Information] () Request starting HTTP/2.0 GET https://localhost:44327/swagger/index.html  
+
+23:29:36 [Information] () Request finished in 282.415ms 200 text/html;charset=utf-8
+
+23:29:36 [Information] () Request starting HTTP/2.0 GET https://localhost:44327/swagger/v1/swagger.json  
+
+23:29:37 [Information] () Request finished in 376.5317ms 200 application/json;charset=utf-8
+
+23:29:49 [Information] () Request starting HTTP/2.0 GET https://localhost:44327/api/Movie/GetMovie  
+
+23:29:49 [Information] () Authorization failed.
+
+23:29:49 [Information] () AuthenticationScheme: "Bearer" was challenged.
+
+23:29:49 [Information] () Request finished in 227.9159ms 401 
+
+23:30:04 [Information] () Request starting HTTP/2.0 GET https://localhost:44327/api/Movie/GetMovie  
+
+23:30:04 [Information] () Authorization failed.
+
+23:30:04 [Information] () AuthenticationScheme: "Bearer" was challenged.
+
+23:30:04 [Information] () Request finished in 27.8458ms 401 
+
+23:30:27 [Information] () Request starting HTTP/1.1 GET https://localhost:44327/api/Movie/GetMovie  
+
+23:30:27 [Information] () Authorization failed.
+
+23:30:27 [Information] () AuthenticationScheme: "Bearer" was challenged.
+
+23:30:27 [Information] () Request finished in 6.4744ms 401 
+
+23:31:00 [Information] () Request starting HTTP/2.0 GET https://localhost:44327/api/Movie/GetMovieById?id=1  
+
+23:31:00 [Information] () Authorization failed.
+
+23:31:00 [Information] () AuthenticationScheme: "Bearer" was challenged.
+
+23:31:00 [Information] () Request finished in 6.0294ms 401 
+
+23:31:07 [Information] () Request starting HTTP/2.0 GET https://localhost:44327/api/Movie/GetMovieById?id=1  
+
+23:31:07 [Information] () Authorization failed.
+
+23:31:07 [Information] () AuthenticationScheme: "Bearer" was challenged.
+
+23:31:07 [Information] () Request finished in 8.1195ms 401 
+
+23:31:20 [Information] () Request starting HTTP/2.0 GET https://localhost:44327/api/Movie/GetMovieById?id=1  
+
+23:31:20 [Information] () Authorization failed.
+
+23:31:20 [Information] () AuthenticationScheme: "Bearer" was challenged.
+
+23:31:20 [Information] () Request finished in 8.9601ms 401 
+
+23:31:44 [Information] () Request starting HTTP/1.1 GET https://localhost:44327/api/Movie/GetMovieById?id=1  
+
+23:31:44 [Information] () Authorization failed.
+
+23:31:44 [Information] () AuthenticationScheme: "Bearer" was challenged.
+
+23:31:44 [Information] () Request finished in 10.2925ms 401 
+
+23:32:01 [Information] () Request starting HTTP/1.1 GET https://localhost:44327/api/Movie/GetMovieById?id=1  
+
+23:32:02 [Information] () Successfully validated the token.
+
+23:32:02 [Information] () Authorization was successful.
+
+23:32:02 [Information] () Executing endpoint '"SEDC.Movies.WebApi.Controllers.MovieController.GetNoteById (SEDC.Movies.WebApi)"'
+
+23:32:02 [Information] () Route matched with "{action = \"GetNoteById\", controller = \"Movie\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetNoteById(Int32)" on controller "SEDC.Movies.WebApi.Controllers.MovieController" ("SEDC.Movies.WebApi").
+
+23:32:04 [Information] () Entity Framework Core "3.1.19" initialized '"MoviesAppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+
+23:32:05 [Information] () Executed DbCommand ("57"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [m].[Id], [m].[Description], [m].[Genre], [m].[Title], [m].[UserId], [m].[Year]
+FROM [Movies] AS [m]"
+
+23:32:05 [Information] () Executing ObjectResult, writing value of type '"SEDC.Movies.RequestModels.MovieRequestModel"'.
+
+23:32:05 [Information] () Executed action "SEDC.Movies.WebApi.Controllers.MovieController.GetNoteById (SEDC.Movies.WebApi)" in 3097.3745ms
+
+23:32:05 [Information] () Executed endpoint '"SEDC.Movies.WebApi.Controllers.MovieController.GetNoteById (SEDC.Movies.WebApi)"'
+
+23:32:05 [Information] () Request finished in 3806.0899ms 200 application/json; charset=utf-8
+
+23:32:57 [Information] () Request starting HTTP/2.0 GET https://localhost:44327/api/Movie/GetMovie  
+
+23:32:57 [Information] () Authorization failed.
+
+23:32:57 [Information] () AuthenticationScheme: "Bearer" was challenged.
+
+23:32:57 [Information] () Request finished in 44.6683ms 401 
+
+23:33:15 [Information] () Request starting HTTP/1.1 GET https://localhost:44327/api/Movie/GetMovie  
+
+23:33:15 [Information] () Successfully validated the token.
+
+23:33:15 [Information] () Authorization was successful.
+
+23:33:15 [Information] () Executing endpoint '"SEDC.Movies.WebApi.Controllers.MovieController.GetMovies (SEDC.Movies.WebApi)"'
+
+23:33:15 [Information] () Route matched with "{action = \"GetMovies\", controller = \"Movie\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetMovies()" on controller "SEDC.Movies.WebApi.Controllers.MovieController" ("SEDC.Movies.WebApi").
+
+23:33:15 [Information] () Entity Framework Core "3.1.19" initialized '"MoviesAppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+
+23:33:15 [Information] () Executed DbCommand ("5"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [m].[Id], [m].[Description], [m].[Genre], [m].[Title], [m].[UserId], [m].[Year]
+FROM [Movies] AS [m]"
+
+23:33:15 [Information] () Movie succesffuly retrieved notes on 10/18/2021 9:33:15 PM
+
+23:33:15 [Information] () Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[SEDC.Movies.RequestModels.MovieRequestModel, SEDC.Movies.RequestModels, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+
+23:33:15 [Information] () Executed action "SEDC.Movies.WebApi.Controllers.MovieController.GetMovies (SEDC.Movies.WebApi)" in 106.0144ms
+
+23:33:15 [Information] () Executed endpoint '"SEDC.Movies.WebApi.Controllers.MovieController.GetMovies (SEDC.Movies.WebApi)"'
+
+23:33:15 [Information] () Request finished in 136.9752ms 200 application/json; charset=utf-8
+
+23:34:14 [Information] () Request starting HTTP/2.0 DELETE https://localhost:44327/api/Movie/DeleteMovieById?id=1  
+
+23:34:14 [Information] () CORS policy execution successful.
+
+23:34:14 [Information] () Authorization failed.
+
+23:34:14 [Information] () AuthenticationScheme: "Bearer" was challenged.
+
+23:34:14 [Information] () Request finished in 15.2453ms 401 
+
+23:34:46 [Information] () Request starting HTTP/1.1 DELETE https://localhost:44327/api/Movie/DeleteMovieById?id=1  
+
+23:34:46 [Information] () Authorization failed.
+
+23:34:46 [Information] () AuthenticationScheme: "Bearer" was challenged.
+
+23:34:46 [Information] () Request finished in 6.8311ms 401 
+
+23:34:52 [Information] () Request starting HTTP/1.1 DELETE https://localhost:44327/api/Movie/DeleteMovieById?id=1  
+
+23:34:52 [Information] () Successfully validated the token.
+
+23:34:52 [Information] () Authorization was successful.
+
+23:34:52 [Information] () Executing endpoint '"SEDC.Movies.WebApi.Controllers.MovieController.DeleteNoteById (SEDC.Movies.WebApi)"'
+
+23:34:52 [Information] () Route matched with "{action = \"DeleteNoteById\", controller = \"Movie\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult DeleteNoteById(Int32)" on controller "SEDC.Movies.WebApi.Controllers.MovieController" ("SEDC.Movies.WebApi").
+
+23:34:52 [Information] () Entity Framework Core "3.1.19" initialized '"MoviesAppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+
+23:34:52 [Information] () Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [m].[Id], [m].[Description], [m].[Genre], [m].[Title], [m].[UserId], [m].[Year]
+FROM [Movies] AS [m]"
+
+23:34:52 [Information] () Executed DbCommand ("84"ms) [Parameters=["@p0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+DELETE FROM [Movies]
+WHERE [Id] = @p0;
+SELECT @@ROWCOUNT;"
+
+23:34:53 [Information] () Executing HttpStatusCodeResult, setting HTTP status code 200
+
+23:34:53 [Information] () Executed action "SEDC.Movies.WebApi.Controllers.MovieController.DeleteNoteById (SEDC.Movies.WebApi)" in 438.48ms
+
+23:34:53 [Information] () Executed endpoint '"SEDC.Movies.WebApi.Controllers.MovieController.DeleteNoteById (SEDC.Movies.WebApi)"'
+
+23:34:53 [Information] () Request finished in 456.2894ms 200 
+
+23:36:26 [Information] () Request starting HTTP/2.0 POST https://localhost:44327/api/Movie/CreateMovie application/json 119
+
+23:36:26 [Information] () CORS policy execution successful.
+
+23:36:26 [Information] () Authorization failed.
+
+23:36:26 [Information] () AuthenticationScheme: "Bearer" was challenged.
+
+23:36:26 [Information] () Request finished in 8.2017ms 401 
+
+23:36:31 [Information] () Request starting HTTP/2.0 POST https://localhost:44327/api/Movie/CreateMovie application/json 119
+
+23:36:31 [Information] () CORS policy execution successful.
+
+23:36:31 [Information] () Authorization failed.
+
+23:36:31 [Information] () AuthenticationScheme: "Bearer" was challenged.
+
+23:36:31 [Information] () Request finished in 4.6877ms 401 
+
+23:36:56 [Information] () Request starting HTTP/1.1 POST https://localhost:44327/api/Movie/CreateMovie  0
+
+23:36:56 [Information] () Authorization failed.
+
+23:36:56 [Information] () AuthenticationScheme: "Bearer" was challenged.
+
+23:36:56 [Information] () Request finished in 14.3198ms 401 
+
+23:37:08 [Information] () Request starting HTTP/1.1 POST https://localhost:44327/api/Movie/CreateMovie  0
+
+23:37:08 [Information] () Successfully validated the token.
+
+23:37:08 [Information] () Authorization was successful.
+
+23:37:08 [Information] () Executing endpoint '"SEDC.Movies.WebApi.Controllers.MovieController.CreateMovie (SEDC.Movies.WebApi)"'
+
+23:37:08 [Information] () Route matched with "{action = \"CreateMovie\", controller = \"Movie\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult CreateMovie(SEDC.Movies.RequestModels.MovieRequestModel)" on controller "SEDC.Movies.WebApi.Controllers.MovieController" ("SEDC.Movies.WebApi").
+
+23:37:08 [Information] () Executing ObjectResult, writing value of type '"Microsoft.AspNetCore.Mvc.ProblemDetails"'.
+
+23:37:08 [Information] () Executed action "SEDC.Movies.WebApi.Controllers.MovieController.CreateMovie (SEDC.Movies.WebApi)" in 10.7109ms
+
+23:37:08 [Information] () Executed endpoint '"SEDC.Movies.WebApi.Controllers.MovieController.CreateMovie (SEDC.Movies.WebApi)"'
+
+23:37:08 [Information] () Request finished in 24.1595ms 415 application/problem+json; charset=utf-8
+
+23:37:48 [Information] () Request starting HTTP/1.1 POST https://localhost:44327/api/Movie/CreateMovie application/json 126
+
+23:37:48 [Information] () Successfully validated the token.
+
+23:37:48 [Information] () Authorization was successful.
+
+23:37:48 [Information] () Executing endpoint '"SEDC.Movies.WebApi.Controllers.MovieController.CreateMovie (SEDC.Movies.WebApi)"'
+
+23:37:48 [Information] () Route matched with "{action = \"CreateMovie\", controller = \"Movie\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult CreateMovie(SEDC.Movies.RequestModels.MovieRequestModel)" on controller "SEDC.Movies.WebApi.Controllers.MovieController" ("SEDC.Movies.WebApi").
+
+23:44:25 [Information] () User profile is available. Using '"C:\Users\ANASTAS\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+
+23:44:25 [Information] () Application started. Press Ctrl+C to shut down.
+
+23:44:25 [Information] () Hosting environment: "Development"
+
+23:44:25 [Information] () Content root path: "E:\SEDC WEB DEVELOPER - Full Materials\3rd Semester\WEB API\MoviesProject.WebApi.Refactored\SEDC.Movies.Refactored\SEDC.Movies.Refactored"
+
+23:44:26 [Information] () Request starting HTTP/2.0 GET https://localhost:44327/swagger/index.html  
+
+23:44:26 [Information] () Request finished in 153.0826ms 200 text/html;charset=utf-8
+
+23:44:26 [Information] () Request starting HTTP/2.0 GET https://localhost:44327/swagger/v1/swagger.json  
+
+23:44:27 [Information] () Request finished in 382.9246ms 200 application/json;charset=utf-8
+
+23:45:03 [Information] () Request starting HTTP/1.1 POST https://localhost:44327/api/user/authenticate application/json 55
+
+23:45:04 [Information] () Successfully validated the token.
+
+23:45:04 [Information] () Executing endpoint '"SEDC.Movies.WebApi.Controllers.UserController.Authenticate (SEDC.Movies.WebApi)"'
+
+23:45:04 [Information] () Route matched with "{action = \"Authenticate\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Authenticate(SEDC.Movies.RequestModels.LoginRequestModel)" on controller "SEDC.Movies.WebApi.Controllers.UserController" ("SEDC.Movies.WebApi").
+
+23:45:06 [Information] () Entity Framework Core "3.1.19" initialized '"MoviesAppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+
+23:45:08 [Information] () Executed DbCommand ("75"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[Id], [u].[FirstName], [u].[LastName], [u].[Password], [u].[Username]
+FROM [Users] AS [u]"
+
+23:45:08 [Information] () Executing ObjectResult, writing value of type '"SEDC.Movies.RequestModels.UserModel"'.
+
+23:45:08 [Information] () Executed action "SEDC.Movies.WebApi.Controllers.UserController.Authenticate (SEDC.Movies.WebApi)" in 4244.2168ms
+
+23:45:08 [Information] () Executed endpoint '"SEDC.Movies.WebApi.Controllers.UserController.Authenticate (SEDC.Movies.WebApi)"'
+
+23:45:08 [Information] () Request finished in 5308.9689ms 200 application/json; charset=utf-8
+
+23:46:04 [Information] () Request starting HTTP/1.1 POST https://localhost:44327/api/movie/createmovie application/json 123
+
+23:46:04 [Information] () Successfully validated the token.
+
+23:46:04 [Information] () Authorization was successful.
+
+23:46:04 [Information] () Executing endpoint '"SEDC.Movies.WebApi.Controllers.MovieController.CreateMovie (SEDC.Movies.WebApi)"'
+
+23:46:04 [Information] () Route matched with "{action = \"CreateMovie\", controller = \"Movie\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult CreateMovie(SEDC.Movies.RequestModels.MovieRequestModel)" on controller "SEDC.Movies.WebApi.Controllers.MovieController" ("SEDC.Movies.WebApi").
+
+23:46:09 [Information] () Entity Framework Core "3.1.19" initialized '"MoviesAppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+
+23:46:10 [Information] () Executed DbCommand ("80"ms) [Parameters=["@p0='?' (Size = 4000), @p1='?' (DbType = Int32), @p2='?' (Size = 4000), @p3='?' (DbType = Int32), @p4='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [Movies] ([Description], [Genre], [Title], [UserId], [Year])
+VALUES (@p0, @p1, @p2, @p3, @p4);
+SELECT [Id]
+FROM [Movies]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();"
+
+23:46:10 [Information] () Movie succesffuly created date: 10/18/2021 9:46:10 PM
+
+23:46:10 [Information] () Executing HttpStatusCodeResult, setting HTTP status code 200
+
+23:46:10 [Information] () Executed action "SEDC.Movies.WebApi.Controllers.MovieController.CreateMovie (SEDC.Movies.WebApi)" in 6141.5553ms
+
+23:46:10 [Information] () Executed endpoint '"SEDC.Movies.WebApi.Controllers.MovieController.CreateMovie (SEDC.Movies.WebApi)"'
+
+23:46:10 [Information] () Request finished in 6211.6586ms 200 
+
+23:50:57 [Information] () User profile is available. Using '"C:\Users\ANASTAS\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+
+23:50:58 [Information] () Application started. Press Ctrl+C to shut down.
+
+23:50:58 [Information] () Hosting environment: "Development"
+
+23:50:58 [Information] () Content root path: "E:\SEDC WEB DEVELOPER - Full Materials\3rd Semester\WEB API\MoviesProject.WebApi.Refactored\SEDC.Movies.Refactored\SEDC.Movies.Refactored"
+
+23:50:59 [Information] () Request starting HTTP/2.0 GET https://localhost:44327/swagger/index.html  
+
+23:50:59 [Information] () Request finished in 308.6412ms 200 text/html;charset=utf-8
+
+23:51:01 [Information] () Request starting HTTP/2.0 GET https://localhost:44327/swagger/v1/swagger.json  
+
+23:51:02 [Information] () Request finished in 353.8409ms 200 application/json;charset=utf-8
+
+23:53:22 [Information] () Request starting HTTP/1.1 GET https://localhost:44327/api/movie/updatemovie  
+
+23:53:23 [Information] () Successfully validated the token.
+
+23:53:23 [Information] () Executing endpoint '"405 HTTP Method Not Supported"'
+
+23:53:23 [Information] () Executed endpoint '"405 HTTP Method Not Supported"'
+
+23:53:23 [Information] () Request finished in 790.4671ms 405 
+
+23:54:31 [Information] () Request starting HTTP/1.1 GET https://localhost:44327/api/movie/updatemovie application/json 125
+
+23:54:31 [Information] () Successfully validated the token.
+
+23:54:31 [Information] () Executing endpoint '"405 HTTP Method Not Supported"'
+
+23:54:31 [Information] () Executed endpoint '"405 HTTP Method Not Supported"'
+
+23:54:31 [Information] () Request finished in 29.6688ms 405 
+
+23:55:20 [Information] () Request starting HTTP/1.1 PUT https://localhost:44327/api/movie/updatemovie application/json 125
+
+23:55:20 [Information] () Successfully validated the token.
+
+23:55:20 [Information] () Authorization was successful.
+
+23:55:20 [Information] () Executing endpoint '"SEDC.Movies.WebApi.Controllers.MovieController.UpdateNote (SEDC.Movies.WebApi)"'
+
+23:55:20 [Information] () Route matched with "{action = \"UpdateNote\", controller = \"Movie\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult UpdateNote(SEDC.Movies.RequestModels.MovieRequestModel)" on controller "SEDC.Movies.WebApi.Controllers.MovieController" ("SEDC.Movies.WebApi").
+
+23:55:22 [Information] () Entity Framework Core "3.1.19" initialized '"MoviesAppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+
+23:55:24 [Information] () Executed DbCommand ("73"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [m].[Id], [m].[Description], [m].[Genre], [m].[Title], [m].[UserId], [m].[Year]
+FROM [Movies] AS [m]"
+
+23:55:37 [Error] () UNKNOWN Error: "Object reference not set to an instance of an object."
+
+23:55:37 [Information] () Executing ObjectResult, writing value of type '"System.String"'.
+
+23:55:37 [Information] () Executed action "SEDC.Movies.WebApi.Controllers.MovieController.UpdateNote (SEDC.Movies.WebApi)" in 16595.7759ms
+
+23:55:37 [Information] () Executed endpoint '"SEDC.Movies.WebApi.Controllers.MovieController.UpdateNote (SEDC.Movies.WebApi)"'
+
+23:55:37 [Information] () Request finished in 16764.7088ms 400 text/plain; charset=utf-8
+
+23:55:46 [Information] () Request starting HTTP/1.1 PUT https://localhost:44327/api/movie/updatemovie application/json 125
+
+23:55:46 [Information] () Successfully validated the token.
+
+23:55:46 [Information] () Authorization was successful.
+
+23:55:46 [Information] () Executing endpoint '"SEDC.Movies.WebApi.Controllers.MovieController.UpdateNote (SEDC.Movies.WebApi)"'
+
+23:55:46 [Information] () Route matched with "{action = \"UpdateNote\", controller = \"Movie\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult UpdateNote(SEDC.Movies.RequestModels.MovieRequestModel)" on controller "SEDC.Movies.WebApi.Controllers.MovieController" ("SEDC.Movies.WebApi").
+
+23:55:46 [Information] () Entity Framework Core "3.1.19" initialized '"MoviesAppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+
+23:55:46 [Information] () Executed DbCommand ("6"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [m].[Id], [m].[Description], [m].[Genre], [m].[Title], [m].[UserId], [m].[Year]
+FROM [Movies] AS [m]"
+
+23:56:46 [Information] () User profile is available. Using '"C:\Users\ANASTAS\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+
+23:56:47 [Information] () Application started. Press Ctrl+C to shut down.
+
+23:56:47 [Information] () Hosting environment: "Development"
+
+23:56:47 [Information] () Content root path: "E:\SEDC WEB DEVELOPER - Full Materials\3rd Semester\WEB API\MoviesProject.WebApi.Refactored\SEDC.Movies.Refactored\SEDC.Movies.Refactored"
+
+23:56:47 [Information] () Request starting HTTP/2.0 GET https://localhost:44327/swagger/index.html  
+
+23:56:47 [Information] () Request finished in 155.8922ms 200 text/html;charset=utf-8
+
+23:56:48 [Information] () Request starting HTTP/2.0 GET https://localhost:44327/swagger/v1/swagger.json  
+
+23:56:48 [Information] () Request finished in 307.3284ms 200 application/json;charset=utf-8
+
+23:56:51 [Information] () Request starting HTTP/1.1 PUT https://localhost:44327/api/movie/updatemovie application/json 125
+
+23:56:51 [Information] () Successfully validated the token.
+
+23:56:51 [Information] () Authorization was successful.
+
+23:56:51 [Information] () Executing endpoint '"SEDC.Movies.WebApi.Controllers.MovieController.UpdateNote (SEDC.Movies.WebApi)"'
+
+23:56:52 [Information] () Route matched with "{action = \"UpdateNote\", controller = \"Movie\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult UpdateNote(SEDC.Movies.RequestModels.MovieRequestModel)" on controller "SEDC.Movies.WebApi.Controllers.MovieController" ("SEDC.Movies.WebApi").
+
+23:56:53 [Information] () Entity Framework Core "3.1.19" initialized '"MoviesAppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+
+23:56:55 [Information] () Executed DbCommand ("105"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [m].[Id], [m].[Description], [m].[Genre], [m].[Title], [m].[UserId], [m].[Year]
+FROM [Movies] AS [m]"
+
+23:57:01 [Error] () UNKNOWN Error: "Object reference not set to an instance of an object."
+
+23:57:01 [Information] () Executing ObjectResult, writing value of type '"System.String"'.
+
+23:57:01 [Information] () Executed action "SEDC.Movies.WebApi.Controllers.MovieController.UpdateNote (SEDC.Movies.WebApi)" in 8965.9536ms
+
+23:57:01 [Information] () Executed endpoint '"SEDC.Movies.WebApi.Controllers.MovieController.UpdateNote (SEDC.Movies.WebApi)"'
+
+23:57:01 [Information] () Request finished in 9924.8232ms 400 text/plain; charset=utf-8
+
+23:58:08 [Information] () Request starting HTTP/1.1 POST https://localhost:44327/api/Movie/CreateMovie application/json 123
+
+23:58:08 [Information] () Successfully validated the token.
+
+23:58:08 [Information] () Authorization was successful.
+
+23:58:08 [Information] () Executing endpoint '"SEDC.Movies.WebApi.Controllers.MovieController.CreateMovie (SEDC.Movies.WebApi)"'
+
+23:58:08 [Information] () Route matched with "{action = \"CreateMovie\", controller = \"Movie\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult CreateMovie(SEDC.Movies.RequestModels.MovieRequestModel)" on controller "SEDC.Movies.WebApi.Controllers.MovieController" ("SEDC.Movies.WebApi").
+
+23:58:08 [Information] () Entity Framework Core "3.1.19" initialized '"MoviesAppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+
+23:58:08 [Information] () Executed DbCommand ("80"ms) [Parameters=["@p0='?' (Size = 4000), @p1='?' (DbType = Int32), @p2='?' (Size = 4000), @p3='?' (DbType = Int32), @p4='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [Movies] ([Description], [Genre], [Title], [UserId], [Year])
+VALUES (@p0, @p1, @p2, @p3, @p4);
+SELECT [Id]
+FROM [Movies]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();"
+
+23:58:08 [Information] () Movie succesffuly created date: 10/18/2021 9:58:08 PM
+
+23:58:08 [Information] () Executing HttpStatusCodeResult, setting HTTP status code 200
+
+23:58:08 [Information] () Executed action "SEDC.Movies.WebApi.Controllers.MovieController.CreateMovie (SEDC.Movies.WebApi)" in 614.8505ms
+
+23:58:08 [Information] () Executed endpoint '"SEDC.Movies.WebApi.Controllers.MovieController.CreateMovie (SEDC.Movies.WebApi)"'
+
+23:58:08 [Information] () Request finished in 675.6964ms 200 
+
+23:58:15 [Information] () Request starting HTTP/1.1 POST https://localhost:44327/api/Movie/CreateMovie application/json 123
+
+23:58:15 [Information] () Successfully validated the token.
+
+23:58:15 [Information] () Authorization was successful.
+
+23:58:15 [Information] () Executing endpoint '"SEDC.Movies.WebApi.Controllers.MovieController.CreateMovie (SEDC.Movies.WebApi)"'
+
+23:58:15 [Information] () Route matched with "{action = \"CreateMovie\", controller = \"Movie\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult CreateMovie(SEDC.Movies.RequestModels.MovieRequestModel)" on controller "SEDC.Movies.WebApi.Controllers.MovieController" ("SEDC.Movies.WebApi").
+
+23:58:15 [Information] () Entity Framework Core "3.1.19" initialized '"MoviesAppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+
+23:58:15 [Information] () Executed DbCommand ("1"ms) [Parameters=["@p0='?' (Size = 4000), @p1='?' (DbType = Int32), @p2='?' (Size = 4000), @p3='?' (DbType = Int32), @p4='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [Movies] ([Description], [Genre], [Title], [UserId], [Year])
+VALUES (@p0, @p1, @p2, @p3, @p4);
+SELECT [Id]
+FROM [Movies]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();"
+
+23:58:15 [Information] () Movie succesffuly created date: 10/18/2021 9:58:15 PM
+
+23:58:15 [Information] () Executing HttpStatusCodeResult, setting HTTP status code 200
+
+23:58:15 [Information] () Executed action "SEDC.Movies.WebApi.Controllers.MovieController.CreateMovie (SEDC.Movies.WebApi)" in 42.1957ms
+
+23:58:15 [Information] () Executed endpoint '"SEDC.Movies.WebApi.Controllers.MovieController.CreateMovie (SEDC.Movies.WebApi)"'
+
+23:58:15 [Information] () Request finished in 77.8062ms 200 
+
+23:58:49 [Information] () Request starting HTTP/2.0 GET https://localhost:44327/api/Movie/testLogger  
+
+23:58:49 [Information] () Executing endpoint '"SEDC.Movies.WebApi.Controllers.MovieController.TestLogger (SEDC.Movies.WebApi)"'
+
+23:58:49 [Information] () Route matched with "{action = \"TestLogger\", controller = \"Movie\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult TestLogger()" on controller "SEDC.Movies.WebApi.Controllers.MovieController" ("SEDC.Movies.WebApi").
+
+23:58:49 [Information] () text about infgormation log!
+
+23:58:49 [Warning] () text about warning log!
+
+23:58:49 [Error] () text about ERROR log!
+
+23:58:49 [Information] () Executing HttpStatusCodeResult, setting HTTP status code 200
+
+23:58:49 [Information] () Executed action "SEDC.Movies.WebApi.Controllers.MovieController.TestLogger (SEDC.Movies.WebApi)" in 2.1038ms
+
+23:58:49 [Information] () Executed endpoint '"SEDC.Movies.WebApi.Controllers.MovieController.TestLogger (SEDC.Movies.WebApi)"'
+
+23:58:49 [Information] () Request finished in 28.005ms 200 
+
+23:59:12 [Information] () Request starting HTTP/1.1 GET https://localhost:44327/api/Movie/testLogger  
+
+23:59:12 [Information] () Executing endpoint '"SEDC.Movies.WebApi.Controllers.MovieController.TestLogger (SEDC.Movies.WebApi)"'
+
+23:59:12 [Information] () Route matched with "{action = \"TestLogger\", controller = \"Movie\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult TestLogger()" on controller "SEDC.Movies.WebApi.Controllers.MovieController" ("SEDC.Movies.WebApi").
+
+23:59:12 [Information] () text about infgormation log!
+
+23:59:12 [Warning] () text about warning log!
+
+23:59:12 [Error] () text about ERROR log!
+
+23:59:12 [Information] () Executing HttpStatusCodeResult, setting HTTP status code 200
+
+23:59:12 [Information] () Executed action "SEDC.Movies.WebApi.Controllers.MovieController.TestLogger (SEDC.Movies.WebApi)" in 4.0388ms
+
+23:59:12 [Information] () Executed endpoint '"SEDC.Movies.WebApi.Controllers.MovieController.TestLogger (SEDC.Movies.WebApi)"'
+
+23:59:12 [Information] () Request finished in 13.3021ms 200 
+
+23:59:21 [Information] () Request starting HTTP/1.1 GET https://localhost:44327/api/Movie/testLogger  
+
+23:59:21 [Information] () Successfully validated the token.
+
+23:59:21 [Information] () Executing endpoint '"SEDC.Movies.WebApi.Controllers.MovieController.TestLogger (SEDC.Movies.WebApi)"'
+
+23:59:21 [Information] () Route matched with "{action = \"TestLogger\", controller = \"Movie\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult TestLogger()" on controller "SEDC.Movies.WebApi.Controllers.MovieController" ("SEDC.Movies.WebApi").
+
+23:59:21 [Information] () text about infgormation log!
+
+23:59:21 [Warning] () text about warning log!
+
+23:59:21 [Error] () text about ERROR log!
+
+23:59:21 [Information] () Executing HttpStatusCodeResult, setting HTTP status code 200
+
+23:59:21 [Information] () Executed action "SEDC.Movies.WebApi.Controllers.MovieController.TestLogger (SEDC.Movies.WebApi)" in 2.1573ms
+
+23:59:21 [Information] () Executed endpoint '"SEDC.Movies.WebApi.Controllers.MovieController.TestLogger (SEDC.Movies.WebApi)"'
+
+23:59:21 [Information] () Request finished in 13.815ms 200 
+
+23:59:26 [Information] () Request starting HTTP/1.1 GET https://localhost:44327/api/Movie/testLogger  
+
+23:59:26 [Information] () Successfully validated the token.
+
+23:59:26 [Information] () Executing endpoint '"SEDC.Movies.WebApi.Controllers.MovieController.TestLogger (SEDC.Movies.WebApi)"'
+
+23:59:26 [Information] () Route matched with "{action = \"TestLogger\", controller = \"Movie\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult TestLogger()" on controller "SEDC.Movies.WebApi.Controllers.MovieController" ("SEDC.Movies.WebApi").
+
+23:59:26 [Information] () text about infgormation log!
+
+23:59:26 [Warning] () text about warning log!
+
+23:59:26 [Error] () text about ERROR log!
+
+23:59:26 [Information] () Executing HttpStatusCodeResult, setting HTTP status code 200
+
+23:59:26 [Information] () Executed action "SEDC.Movies.WebApi.Controllers.MovieController.TestLogger (SEDC.Movies.WebApi)" in 2.7869ms
+
+23:59:26 [Information] () Executed endpoint '"SEDC.Movies.WebApi.Controllers.MovieController.TestLogger (SEDC.Movies.WebApi)"'
+
+23:59:26 [Information] () Request finished in 18.6831ms 200 

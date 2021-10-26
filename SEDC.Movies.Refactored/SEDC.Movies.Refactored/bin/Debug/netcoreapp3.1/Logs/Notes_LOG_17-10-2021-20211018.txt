@@ -1,0 +1,142 @@
+
+00:51:53 [Information] () User profile is available. Using '"C:\Users\ANASTAS\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+
+00:51:56 [Information] () Application started. Press Ctrl+C to shut down.
+
+00:51:56 [Information] () Hosting environment: "Development"
+
+00:51:56 [Information] () Content root path: "E:\SEDC WEB DEVELOPER - Full Materials\3rd Semester\WEB API\MoviesProject.WebApi.Refactored\SEDC.Movies.Refactored\SEDC.Movies.Refactored"
+
+00:51:57 [Information] () Request starting HTTP/2.0 GET https://localhost:44327/swagger/index.html  
+
+00:51:57 [Information] () Request finished in 601.4878ms 200 text/html;charset=utf-8
+
+00:51:59 [Information] () Request starting HTTP/2.0 GET https://localhost:44327/swagger/v1/swagger.json  
+
+00:52:00 [Information] () Request finished in 1003.7768ms 200 application/json;charset=utf-8
+
+00:54:23 [Information] () User profile is available. Using '"C:\Users\ANASTAS\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+
+00:54:24 [Information] () Application started. Press Ctrl+C to shut down.
+
+00:54:24 [Information] () Hosting environment: "Development"
+
+00:54:24 [Information] () Content root path: "E:\SEDC WEB DEVELOPER - Full Materials\3rd Semester\WEB API\MoviesProject.WebApi.Refactored\SEDC.Movies.Refactored\SEDC.Movies.Refactored"
+
+00:54:24 [Information] () Request starting HTTP/2.0 GET https://localhost:44327/swagger/index.html  
+
+00:54:24 [Information] () Request finished in 324.2168ms 200 text/html;charset=utf-8
+
+00:54:25 [Information] () Request starting HTTP/2.0 GET https://localhost:44327/swagger/v1/swagger.json  
+
+00:54:26 [Information] () Request finished in 473.2341ms 200 application/json;charset=utf-8
+
+00:55:29 [Information] () Request starting HTTP/2.0 POST https://localhost:44327/api/User/register application/json 138
+
+00:55:29 [Information] () CORS policy execution successful.
+
+00:55:29 [Information] () Executing endpoint '"SEDC.Movies.WebApi.Controllers.UserController.Register (SEDC.Movies.WebApi)"'
+
+00:55:29 [Information] () Route matched with "{action = \"Register\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Register(SEDC.Movies.RequestModels.RegisterRequestModel)" on controller "SEDC.Movies.WebApi.Controllers.UserController" ("SEDC.Movies.WebApi").
+
+00:55:33 [Information] () Entity Framework Core "3.1.19" initialized '"MoviesAppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+
+00:55:34 [Information] () Executed DbCommand ("158"ms) [Parameters=["@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [Users] ([FirstName], [LastName], [Password], [Username])
+VALUES (@p0, @p1, @p2, @p3);
+SELECT [Id]
+FROM [Users]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();"
+
+00:55:35 [Information] () Executing HttpStatusCodeResult, setting HTTP status code 200
+
+00:55:35 [Information] () Executed action "SEDC.Movies.WebApi.Controllers.UserController.Register (SEDC.Movies.WebApi)" in 5149.8611ms
+
+00:55:35 [Information] () Executed endpoint '"SEDC.Movies.WebApi.Controllers.UserController.Register (SEDC.Movies.WebApi)"'
+
+00:55:35 [Information] () Request finished in 5563.1988ms 200 
+
+00:58:06 [Information] () Request starting HTTP/2.0 POST https://localhost:44327/api/User/register application/json 138
+
+00:58:06 [Information] () CORS policy execution successful.
+
+00:58:06 [Information] () Executing endpoint '"SEDC.Movies.WebApi.Controllers.UserController.Register (SEDC.Movies.WebApi)"'
+
+00:58:06 [Information] () Route matched with "{action = \"Register\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Register(SEDC.Movies.RequestModels.RegisterRequestModel)" on controller "SEDC.Movies.WebApi.Controllers.UserController" ("SEDC.Movies.WebApi").
+
+00:58:06 [Information] () Entity Framework Core "3.1.19" initialized '"MoviesAppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+
+00:58:06 [Information] () Executed DbCommand ("7"ms) [Parameters=["@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [Users] ([FirstName], [LastName], [Password], [Username])
+VALUES (@p0, @p1, @p2, @p3);
+SELECT [Id]
+FROM [Users]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();"
+
+00:58:06 [Information] () Executing HttpStatusCodeResult, setting HTTP status code 200
+
+00:58:06 [Information] () Executed action "SEDC.Movies.WebApi.Controllers.UserController.Register (SEDC.Movies.WebApi)" in 151.8726ms
+
+00:58:06 [Information] () Executed endpoint '"SEDC.Movies.WebApi.Controllers.UserController.Register (SEDC.Movies.WebApi)"'
+
+00:58:06 [Information] () Request finished in 207.2262ms 200 
+
+00:59:54 [Information] () User profile is available. Using '"C:\Users\ANASTAS\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+
+00:59:55 [Information] () Application started. Press Ctrl+C to shut down.
+
+00:59:55 [Information] () Hosting environment: "Development"
+
+00:59:55 [Information] () Content root path: "E:\SEDC WEB DEVELOPER - Full Materials\3rd Semester\WEB API\MoviesProject.WebApi.Refactored\SEDC.Movies.Refactored\SEDC.Movies.Refactored"
+
+00:59:55 [Information] () Request starting HTTP/2.0 GET https://localhost:44327/swagger/index.html  
+
+00:59:56 [Information] () Request finished in 183.5729ms 200 text/html;charset=utf-8
+
+00:59:57 [Information] () Request starting HTTP/2.0 GET https://localhost:44327/swagger/v1/swagger.json  
+
+00:59:57 [Information] () Request finished in 455.2874ms 200 application/json;charset=utf-8
+
+01:00:48 [Information] () Request starting HTTP/2.0 POST https://localhost:44327/api/User/register application/json 149
+
+01:00:48 [Information] () CORS policy execution successful.
+
+01:00:48 [Information] () Executing endpoint '"SEDC.Movies.WebApi.Controllers.UserController.Register (SEDC.Movies.WebApi)"'
+
+01:00:49 [Information] () Route matched with "{action = \"Register\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Register(SEDC.Movies.RequestModels.RegisterRequestModel)" on controller "SEDC.Movies.WebApi.Controllers.UserController" ("SEDC.Movies.WebApi").
+
+01:04:03 [Information] () Entity Framework Core "3.1.19" initialized '"MoviesAppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+
+01:04:05 [Information] () Executed DbCommand ("185"ms) [Parameters=["@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [Users] ([FirstName], [LastName], [Password], [Username])
+VALUES (@p0, @p1, @p2, @p3);
+SELECT [Id]
+FROM [Users]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();"
+
+01:04:06 [Information] () Executing HttpStatusCodeResult, setting HTTP status code 200
+
+01:04:06 [Information] () Executed action "SEDC.Movies.WebApi.Controllers.UserController.Register (SEDC.Movies.WebApi)" in 197058.271ms
+
+01:04:06 [Information] () Executed endpoint '"SEDC.Movies.WebApi.Controllers.UserController.Register (SEDC.Movies.WebApi)"'
+
+01:04:06 [Information] () Request finished in 197346.0616ms 200 
+
+01:13:58 [Information] () User profile is available. Using '"C:\Users\ANASTAS\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+
+01:13:59 [Information] () Application started. Press Ctrl+C to shut down.
+
+01:13:59 [Information] () Hosting environment: "Development"
+
+01:13:59 [Information] () Content root path: "E:\SEDC WEB DEVELOPER - Full Materials\3rd Semester\WEB API\MoviesProject.WebApi.Refactored\SEDC.Movies.Refactored\SEDC.Movies.Refactored"
+
+01:13:59 [Information] () Request starting HTTP/2.0 GET https://localhost:44327/swagger/index.html  
+
+01:13:59 [Information] () Request finished in 154.296ms 200 text/html;charset=utf-8
+
+01:14:00 [Information] () Request starting HTTP/2.0 GET https://localhost:44327/swagger/v1/swagger.json  
+
+01:14:01 [Information] () Request finished in 564.1452ms 200 application/json;charset=utf-8

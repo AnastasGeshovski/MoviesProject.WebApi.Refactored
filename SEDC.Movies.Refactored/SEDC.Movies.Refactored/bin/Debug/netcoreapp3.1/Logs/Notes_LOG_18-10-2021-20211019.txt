@@ -1,0 +1,22 @@
+
+00:00:18 [Information] () Request starting HTTP/1.1 GET https://localhost:44327/api/Movie/testLogger  
+
+00:00:18 [Information] () Successfully validated the token.
+
+00:00:18 [Information] () Executing endpoint '"SEDC.Movies.WebApi.Controllers.MovieController.TestLogger (SEDC.Movies.WebApi)"'
+
+00:00:18 [Information] () Route matched with "{action = \"TestLogger\", controller = \"Movie\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult TestLogger()" on controller "SEDC.Movies.WebApi.Controllers.MovieController" ("SEDC.Movies.WebApi").
+
+00:00:18 [Information] () text about infgormation log!
+
+00:00:18 [Warning] () text about warning log!
+
+00:00:18 [Error] () text about ERROR log!
+
+00:00:18 [Information] () Executing HttpStatusCodeResult, setting HTTP status code 200
+
+00:00:18 [Information] () Executed action "SEDC.Movies.WebApi.Controllers.MovieController.TestLogger (SEDC.Movies.WebApi)" in 1.8353ms
+
+00:00:18 [Information] () Executed endpoint '"SEDC.Movies.WebApi.Controllers.MovieController.TestLogger (SEDC.Movies.WebApi)"'
+
+00:00:18 [Information] () Request finished in 184.5358ms 200 

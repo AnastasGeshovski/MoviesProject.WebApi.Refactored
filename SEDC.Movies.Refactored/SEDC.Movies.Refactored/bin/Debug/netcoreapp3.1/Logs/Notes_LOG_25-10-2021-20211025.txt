@@ -1,0 +1,44 @@
+
+03:00:48 [Information] () User profile is available. Using '"C:\Users\ANASTAS\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+
+03:00:50 [Information] () Application started. Press Ctrl+C to shut down.
+
+03:00:50 [Information] () Hosting environment: "Development"
+
+03:00:50 [Information] () Content root path: "E:\SEDC WEB DEVELOPER - Full Materials\3rd Semester\WEB API\MoviesProject.WebApi.Refactored\SEDC.Movies.Refactored\SEDC.Movies.Refactored"
+
+03:00:50 [Information] () Request starting HTTP/2.0 GET https://localhost:44327/swagger  
+
+03:00:50 [Information] () Request starting HTTP/2.0 GET https://localhost:44327/swagger/index.html  
+
+03:00:50 [Information] () Request finished in 169.2253ms 301 
+
+03:00:50 [Information] () Request finished in 159.8341ms 200 text/html;charset=utf-8
+
+03:00:50 [Information] () Request starting HTTP/2.0 GET https://localhost:44327/swagger/swagger-ui.css  
+
+03:00:50 [Information] () Request starting HTTP/2.0 GET https://localhost:44327/swagger/swagger-ui-bundle.js  
+
+03:00:50 [Information] () Request starting HTTP/2.0 GET https://localhost:44327/swagger/swagger-ui-standalone-preset.js  
+
+03:00:50 [Information] () Sending file. Request path: '"/swagger-ui.css"'. Physical path: '"N/A"'
+
+03:00:50 [Information] () Request finished in 91.0603ms 200 text/css
+
+03:00:50 [Information] () Sending file. Request path: '"/swagger-ui-standalone-preset.js"'. Physical path: '"N/A"'
+
+03:00:50 [Information] () Request finished in 98.0462ms 200 application/javascript
+
+03:00:50 [Information] () Sending file. Request path: '"/swagger-ui-bundle.js"'. Physical path: '"N/A"'
+
+03:00:50 [Information] () Request finished in 121.628ms 200 application/javascript
+
+03:00:51 [Information] () Request starting HTTP/2.0 GET https://localhost:44327/swagger/v1/swagger.json  
+
+03:00:51 [Information] () Request starting HTTP/2.0 GET https://localhost:44327/swagger/favicon-32x32.png  
+
+03:00:51 [Information] () Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+
+03:00:51 [Information] () Request finished in 7.221ms 200 image/png
+
+03:00:51 [Information] () Request finished in 320.4609ms 200 application/json;charset=utf-8
